@@ -105,7 +105,7 @@ a{color:inherit}
   transform:translate3d(calc(-50% + var(--px) * var(--d) * var(--shift)),calc(var(--py) * var(--d) * var(--shift) * .6),0);
   pointer-events:none;width:min(440px,40vw)}
 .title-block{text-align:center;display:flex;flex-direction:column;align-items:center}
-.shield{width:min(260px,58%);height:auto;filter:drop-shadow(0 6px 14px rgba(0,0,0,.45))}
+.shield{width:min(280px,64%);height:auto;filter:drop-shadow(0 8px 16px rgba(0,0,0,.45))}
 .title-block h1{
   position:relative;
   font-family:var(--font-head);font-weight:700;text-transform:uppercase;letter-spacing:.04em;
@@ -212,7 +212,7 @@ a{color:inherit}
     left:auto;right:clamp(6px,3vw,24px);top:calc(env(safe-area-inset-top,0px) + 52px);
     width:min(58vw,330px);
     transform:translate3d(calc(var(--px) * var(--d) * var(--shift)),calc(var(--py) * var(--d) * var(--shift) * .6),0)}
-  .page-home .shield{width:76%}
+  .page-home .shield{width:min(200px,84%);margin-bottom:.45rem}
   .page-home .title-block h1{font-size:clamp(2rem,10vw,3.2rem);margin-top:.15em}
   .page-home .place{font-size:clamp(.66rem,3vw,.9rem);gap:.4em}
   .page-home .place::before,.page-home .place::after{width:1.4em}
@@ -290,7 +290,7 @@ a{color:inherit}
   .nav-btn.is-active{border-color:var(--gold-2)}
   .hero{min-height:100svh}
   .layer-top{top:62px;width:min(260px,34vw)}
-  .shield{width:42%}
+  .shield{width:min(148px,48%)}
   .tagline{display:none}
   .scroll-cue{display:none}
   .page-inner .scene-sliver{display:none}
