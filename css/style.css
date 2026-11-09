@@ -27,10 +27,10 @@ a{color:inherit}
 .rail{position:relative;z-index:1}
 .rail-logo{
   display:none;position:absolute;z-index:2;
-  left:clamp(14px,2vw,32px);top:18px;width:50px;
-  filter:drop-shadow(0 3px 6px rgba(0,0,0,.45));
+  left:clamp(12px,2vw,28px);top:14px;width:64px;
+  filter:drop-shadow(0 3px 5px rgba(0,0,0,.4));
 }
-.rail-logo img{display:block;width:100%;height:auto}
+.rail-logo picture,.rail-logo img{display:block;width:100%;height:auto}
 .rail::before{ /* the gold rail */
   content:"";position:absolute;left:0;right:0;top:37px;height:5px;border-radius:4px;
   background:linear-gradient(to bottom,var(--gold-2),var(--gold) 45%,var(--gold-3));
@@ -184,7 +184,7 @@ a{color:inherit}
   .nav-btn span{font-size:9.5px}
   .rail::before{top:32px}
   .rail::after{top:27px}
-  .rail-logo{top:16px;width:46px}
+  .rail-logo{top:12px;width:58px}
 }
 
 /* ---------- PHONE PORTRAIT ---------- */
@@ -246,8 +246,8 @@ a{color:inherit}
     padding:calc(env(safe-area-inset-top,0px) + 6px) 8px 6px 10px;
     background:rgba(20,36,63,.96);
     border-bottom:4px solid var(--gold);box-shadow:0 4px 16px rgba(0,0,0,.35)}
-  .page-inner .topbar-logo{display:flex;width:36px}
-  .page-inner .topbar-logo img{display:block;width:100%;height:auto;filter:drop-shadow(0 2px 4px rgba(0,0,0,.35))}
+  .page-inner .topbar-logo{display:flex;width:42px}
+  .page-inner .topbar-logo picture,.page-inner .topbar-logo img{display:block;width:100%;height:auto;filter:drop-shadow(0 2px 3px rgba(0,0,0,.35))}
   .page-inner .page-head h1{
     color:#fff;font-size:clamp(13px,3.6vw,17px);letter-spacing:.03em;line-height:1.05}
   .page-inner .page-head h1 svg{color:var(--gold-2);font-size:.95em}
