@@ -9,7 +9,6 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:120px}
 body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--navy-3)}
-body.nav-open{overflow:hidden}
 img{max-width:100%}
 svg{width:1em;height:1em}
 a{color:inherit}
@@ -69,11 +68,19 @@ a{color:inherit}
     background:radial-gradient(circle at 7.5px 7.5px,var(--gold-2) 0 4px,var(--gold-3) 5px 7px,transparent 7.5px) right/15px 15px no-repeat}
 }
 
-/* ---------- TOP BAR (phone portrait, inner pages) ---------- */
-.topbar{display:none}
-.menu-btn .icon-close{display:none}
-.menu-btn[aria-expanded="true"] .icon-menu{display:none}
-.menu-btn[aria-expanded="true"] .icon-close{display:block}
+/* ---------- INNER PAGE TITLE ---------- */
+.scene-sliver{height:108px;overflow:hidden;background:#c9843a}
+.scene-sliver img{display:block;width:100%;height:180%;object-fit:cover;object-position:center 38%}
+.page-head{
+  display:flex;align-items:center;gap:.55em;
+  min-height:64px;padding:10px clamp(20px,4vw,48px);
+  background:var(--cream);border-bottom:3px solid var(--gold)}
+.topbar-logo,.home-pill{display:none}
+.page-head h1{
+  display:flex;align-items:center;gap:.4em;margin:0;min-width:0;
+  font-family:var(--font-head);font-weight:700;text-transform:uppercase;letter-spacing:.04em;
+  color:var(--navy);font-size:clamp(1.35rem,2.2vw,1.7rem);line-height:1.1}
+.page-head h1 svg{color:var(--gold-3);font-size:.9em;flex:none}
 
 /* ---------- HERO / PARALLAX ---------- */
 .hero{
@@ -143,22 +150,9 @@ a{color:inherit}
 }
 
 /* ---------- INNER PAGES ---------- */
-.page-banner{
-  position:relative;height:clamp(210px,30vw,300px);overflow:hidden;background:#e9a64a;
-  display:flex;align-items:flex-end}
-.banner-media{position:absolute;inset:-20% 0 -10%;z-index:0}
-.banner-media img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 42%}
-.page-banner::after{
-  content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
-  background:linear-gradient(to bottom,rgba(12,23,41,.18),rgba(12,23,41,.05) 42%,rgba(12,23,41,.78))}
-.banner-title{position:relative;z-index:2;padding:0 0 22px}
-.page-banner h1{
-  display:flex;align-items:center;gap:.45em;margin:0;
-  font-family:var(--font-head);font-weight:700;text-transform:uppercase;letter-spacing:.04em;
-  color:var(--cream);font-size:clamp(1.8rem,4vw,2.8rem);line-height:1.05;
-  text-shadow:0 2px 14px rgba(0,0,0,.45)}
-.page-banner h1 svg{color:var(--gold-2);font-size:.8em;flex:none}
-
+.page-inner{min-height:100svh;display:flex;flex-direction:column}
+.page-inner main{flex:1 0 auto;display:flex;flex-direction:column}
+.page-inner .panel{flex:1 0 auto;background:var(--cream);padding:clamp(28px,4vw,40px) 0 clamp(56px,8vw,96px)}
 .panel{background:var(--cream);padding:clamp(36px,6vw,72px) 0 clamp(56px,8vw,96px)}
 .panel.alt{background:#efe4cc}
 .wrap{width:min(1080px,100% - 40px);margin:0 auto}
@@ -227,76 +221,46 @@ a{color:inherit}
   .scroll-cue{display:none}
   .welcome{padding-top:clamp(40px,8vw,64px)}
 
-  /* Inner pages: compact top bar + overlay rail */
-  .page-inner .topbar{
-    display:flex;position:fixed;z-index:40;top:0;left:0;right:0;
-    height:calc(56px + env(safe-area-inset-top,0px));
-    padding:env(safe-area-inset-top,0px) 12px 0 12px;
-    align-items:center;justify-content:space-between;
-    background:rgba(20,36,63,.92);
-    -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
-    border-bottom:4px solid var(--gold);box-shadow:0 4px 16px rgba(0,0,0,.35)}
-  .topbar-logo{display:flex;width:38px}
-  .topbar-logo img{display:block;width:100%;height:auto;filter:drop-shadow(0 2px 4px rgba(0,0,0,.35))}
-  .menu-btn{
-    display:flex;align-items:center;gap:.4em;color:#fff;background:transparent;
-    border:2px solid var(--gold);border-radius:999px;padding:.45em .85em;cursor:pointer;
-    font:600 13px/1 var(--font-head);letter-spacing:.06em;text-transform:uppercase}
-  .menu-btn svg{font-size:18px;color:var(--gold-2)}
-  .menu-btn:focus-visible{outline:2px solid var(--gold-2);outline-offset:2px}
-
-  .page-inner .rail-bar{
-    position:fixed;z-index:35;
-    top:calc(56px + env(safe-area-inset-top,0px));left:0;right:0;bottom:0;
-    width:auto;padding:8px 16px 16px 8px;
-    background:rgba(12,23,41,.72);
-    -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
-    box-shadow:none;
-    visibility:hidden;opacity:0;pointer-events:none;
-    transition:opacity .2s ease,visibility .2s ease}
-  .page-inner .rail-bar.is-open{visibility:visible;opacity:1;pointer-events:auto}
-  .page-inner .rail-bar.is-scrolled{
-    background:rgba(12,23,41,.72);box-shadow:none}
-  .page-inner .rail{height:100%;width:max-content}
-  .page-inner .rail::before{
-    left:20px;right:auto;top:8px;bottom:8px;width:5px;height:auto;
-    background:linear-gradient(to right,var(--gold-2),var(--gold) 45%,var(--gold-3))}
-  .page-inner .rail::after{
-    left:15px;right:auto;top:0;bottom:0;width:15px;height:auto;
-    background:
-      radial-gradient(circle at 7.5px 7.5px,var(--gold-2) 0 4px,var(--gold-3) 5px 7px,transparent 7.5px) top/15px 15px no-repeat,
-      radial-gradient(circle at 7.5px 7.5px,var(--gold-2) 0 4px,var(--gold-3) 5px 7px,transparent 7.5px) bottom/15px 15px no-repeat}
-  .page-inner .rail ul{
-    flex-direction:column;justify-content:space-evenly;align-items:flex-start;
-    height:100%;gap:6px;padding:10px 0}
-
-  .page-home .nav-btn,
-  .page-inner .nav-btn{
+  .page-home .nav-btn{
     flex-direction:row;justify-content:flex-start;width:auto;height:auto;border-radius:0;
     border:0;background:none;box-shadow:none;gap:0}
-  .page-home .nav-btn:hover,.page-home .nav-btn:focus-visible,
-  .page-inner .nav-btn:hover,.page-inner .nav-btn:focus-visible{transform:translateX(3px);box-shadow:none}
-  .page-home .nav-btn .ico,
-  .page-inner .nav-btn .ico{
+  .page-home .nav-btn:hover,.page-home .nav-btn:focus-visible{transform:translateX(3px);box-shadow:none}
+  .page-home .nav-btn .ico{
     position:relative;z-index:1;width:46px;height:46px;flex:none;border-radius:50%;font-size:21px;
     background:radial-gradient(circle at 50% 35%,var(--navy-2),var(--navy) 60%,var(--navy-3));
     border:3px solid var(--gold);box-shadow:0 0 0 2px var(--navy-3),0 3px 8px rgba(0,0,0,.5)}
-  .page-home .nav-btn span,
-  .page-inner .nav-btn span{
+  .page-home .nav-btn span{
     margin-left:-12px;padding:0 16px 0 20px;min-height:36px;display:flex;align-items:center;
     min-width:92px;font-size:12.5px;font-weight:600;text-align:left;color:#fff;border-radius:0 999px 999px 0;
     background:linear-gradient(to bottom,var(--navy-2),var(--navy) 60%,var(--navy-3));
     border:1.5px solid rgba(217,164,65,.65);border-left:0;box-shadow:0 3px 8px rgba(0,0,0,.45)}
-  .page-home .nav-btn span br,
-  .page-inner .nav-btn span br{display:block}
-  .page-home .nav-btn.is-active .ico,
-  .page-inner .nav-btn.is-active .ico{
-    border-color:var(--gold-2);box-shadow:0 0 0 2px var(--navy-3),0 0 12px rgba(243,207,122,.8)}
-  .page-home .nav-btn.is-active span,
-  .page-inner .nav-btn.is-active span{color:var(--gold-2)}
+  .page-home .nav-btn span br{display:block}
+  .page-home .nav-btn.is-active .ico{border-color:var(--gold-2);box-shadow:0 0 0 2px var(--navy-3),0 0 12px rgba(243,207,122,.8)}
+  .page-home .nav-btn.is-active span{color:var(--gold-2)}
 
-  .page-banner{height:200px;margin-top:calc(56px + env(safe-area-inset-top,0px))}
-  .page-banner h1{font-size:clamp(1.6rem,7vw,2rem)}
+  /* Inner pages: navy bar with shield, title, and a Home pill. No overlay. */
+  .page-inner .scene-sliver{display:none}
+  .page-inner .rail-bar{display:none}
+  .page-inner .page-head{
+    position:sticky;top:0;z-index:40;
+    display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:8px;
+    min-height:calc(56px + env(safe-area-inset-top,0px));
+    padding:calc(env(safe-area-inset-top,0px) + 6px) 8px 6px 10px;
+    background:rgba(20,36,63,.96);
+    border-bottom:4px solid var(--gold);box-shadow:0 4px 16px rgba(0,0,0,.35)}
+  .page-inner .topbar-logo{display:flex;width:36px}
+  .page-inner .topbar-logo img{display:block;width:100%;height:auto;filter:drop-shadow(0 2px 4px rgba(0,0,0,.35))}
+  .page-inner .page-head h1{
+    color:#fff;font-size:clamp(13px,3.6vw,17px);letter-spacing:.03em;line-height:1.05}
+  .page-inner .page-head h1 svg{color:var(--gold-2);font-size:.95em}
+  .page-inner .page-head h1 span{min-width:0}
+  .home-pill{
+    display:flex;align-items:center;gap:.35em;flex:none;text-decoration:none;color:#fff;
+    border:2px solid var(--gold);border-radius:999px;padding:.42em .7em;
+    font:600 12px/1 var(--font-head);letter-spacing:.06em;text-transform:uppercase}
+  .home-pill svg{font-size:16px;color:var(--gold-2)}
+  .home-pill:focus-visible{outline:2px solid var(--gold-2);outline-offset:2px}
+  .page-inner .panel{padding-top:22px}
 }
 
 /* ---------- PHONE LANDSCAPE: compact icon row ---------- */
@@ -329,14 +293,16 @@ a{color:inherit}
   .shield{width:42%}
   .tagline{display:none}
   .scroll-cue{display:none}
-  .page-banner{height:150px;margin-top:0}
-  .page-banner h1{font-size:1.4rem}
+  .page-inner .scene-sliver{display:none}
+  .page-inner .page-head{margin-top:58px;min-height:48px;padding:6px 16px}
+  .page-inner .page-head h1{font-size:1.15rem}
+  .page-inner .topbar-logo,.page-inner .home-pill{display:none}
   .welcome{padding-top:72px}
 }
 
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
-  .layer,.scene .layer,.layer-top,.banner-media,.rail-bar{transition:none}
+  .layer,.scene .layer,.layer-top,.rail-bar{transition:none}
   .scroll-cue{animation:none}
   .tilt-btn{display:none!important}
 }

@@ -1,65 +1,12 @@
 (() => {
   const railBar = document.querySelector('.rail-bar');
-  const rail = document.getElementById('main-nav');
-  const menuBtn = document.querySelector('.menu-btn');
-  const menuLabel = menuBtn ? menuBtn.querySelector('span') : null;
-  const portrait = window.matchMedia('(max-width: 899px) and (orientation: portrait)');
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const isInner = document.body.classList.contains('page-inner');
 
   const onScroll = () => {
     if (railBar) railBar.classList.toggle('is-scrolled', window.scrollY > 12);
   };
   onScroll();
   addEventListener('scroll', onScroll, { passive: true });
-
-  function overlayMode() {
-    return isInner && portrait.matches;
-  }
-  function setInert() {
-    if (!rail) return;
-    const hide = overlayMode() && !railBar.classList.contains('is-open');
-    rail.toggleAttribute('inert', hide);
-    if (menuBtn) menuBtn.setAttribute('aria-expanded', railBar.classList.contains('is-open') ? 'true' : 'false');
-  }
-  function closeMenu() {
-    if (!railBar) return;
-    railBar.classList.remove('is-open');
-    document.body.classList.remove('nav-open');
-    if (menuLabel) menuLabel.textContent = 'Menu';
-    setInert();
-  }
-  function openMenu() {
-    railBar.classList.add('is-open');
-    document.body.classList.add('nav-open');
-    if (menuLabel) menuLabel.textContent = 'Close';
-    setInert();
-  }
-  if (menuBtn && railBar) {
-    menuBtn.addEventListener('click', () => {
-      railBar.classList.contains('is-open') ? closeMenu() : openMenu();
-    });
-    railBar.addEventListener('click', (e) => {
-      if (!overlayMode()) return;
-      if (e.target.closest('a') || !e.target.closest('.rail')) closeMenu();
-    });
-    addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') closeMenu();
-    });
-    portrait.addEventListener('change', closeMenu);
-    setInert();
-  }
-
-  const banner = document.querySelector('.page-banner');
-  const bannerMedia = document.querySelector('.banner-media');
-  if (banner && bannerMedia && !reduce.matches) {
-    const tick = () => {
-      const shift = Math.max(0, -banner.getBoundingClientRect().top) * 0.28;
-      bannerMedia.style.transform = 'translate3d(0,' + shift.toFixed(2) + 'px,0)';
-    };
-    addEventListener('scroll', tick, { passive: true });
-    tick();
-  }
 
   const hero = document.querySelector('.hero');
   if (!hero || reduce.matches) return;
