@@ -81,7 +81,9 @@
     {
       "name": "Jake Noel",
       "date": "March 30, 2023",
-      "project": "Water garden / fountain at SSES"
+      "project": "Water garden / fountain at SSES",
+      "photo": "img/eagles/jake-noel.jpg",
+      "focus": {"x": 50, "y": 24}
     },
     {
       "name": "Jackson Davis",
@@ -93,7 +95,9 @@
     {
       "name": "Zachary Taylor",
       "date": "August 10, 2022",
-      "project": "Garden area at school"
+      "project": "Garden area at school",
+      "photo": "img/eagles/zachary-taylor.jpg",
+      "focus": {"x": 50, "y": 26}
     },
     {
       "name": "Cooper Burden",
@@ -126,6 +130,7 @@
       "date": "March 24, 2021",
       "project": "Fishing Line Recycling, several locations, Pasco, Florida",
       "photo": "img/eagles/trenton-doherty.jpg",
+      "focus": {"x": 50, "y": 25},
       "projectPage": {
         "slug": "trenton-doherty",
         "paragraphs": [
