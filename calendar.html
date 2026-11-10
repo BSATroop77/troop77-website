@@ -49,12 +49,9 @@
 <main>
   <section class="panel">
     <div class="wrap">
-      <p class="placeholder">Placeholder — an embedded Google Calendar (or Scoutbook/TroopWebHost feed) will go here.</p>
-      <ul class="events">
-        <li><time>Date</time><span>Troop meeting</span></li>
-        <li><time>Date</time><span>Campout</span></li>
-        <li><time>Date</time><span>Service project</span></li>
-      </ul>
+      <div id="calendar" class="calendar" aria-live="polite">
+        <p class="placeholder">Loading the troop calendar…</p>
+      </div>
     </div>
   </section>
 </main>
@@ -63,5 +60,6 @@
   <p><a href="https://www.scouting.org/" rel="noopener" target="_blank">Scouting America</a></p>
 </footer>
 <script src="js/main.js" defer></script>
+<script src="js/calendar.js" defer></script>
 </body>
 </html>

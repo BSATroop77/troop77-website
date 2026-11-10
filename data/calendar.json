@@ -1,0 +1,197 @@
+{
+  "fetchedAt": "2026-11-10T04:29:53Z",
+  "timeZone": "America/New_York",
+  "windowStart": "2026-11-01",
+  "windowEnd": "2027-02-01",
+  "events": [
+    {
+      "uid": "7042586@advancements.scouting.org",
+      "title": "Troop Meeting",
+      "start": "2026-11-02T18:30:00-05:00",
+      "end": "2026-11-02T20:00:00-05:00",
+      "allDay": false,
+      "location": "Trinity Presbyterian Church of Seven Springs 4651 LIttle Rd New Port Richey FL 34655",
+      "description": "Troop Meeting. Wear your Field uniform (Class A) with your Activity shirt (Class B) under it, and bring your handbook and water bottle, unless the weekly agenda says otherwise!"
+    },
+    {
+      "uid": "7042639@advancements.scouting.org",
+      "title": "Troop Ushering",
+      "start": "2026-11-08T09:30:00-05:00",
+      "end": "2026-11-08T11:00:00-05:00",
+      "allDay": false,
+      "location": "Trinity Presbyterian Church of Seven Springs, 4651 Little Rd, New Port Richey FL 34655",
+      "description": "Service to our Chartering Organization. Wear your Field Uniform/Class A. Arrive at 9:30 to hold doors and pass out programs. Scouts will help with the collection during the service."
+    },
+    {
+      "uid": "7042587@advancements.scouting.org",
+      "title": "Troop Meeting",
+      "start": "2026-11-09T18:30:00-05:00",
+      "end": "2026-11-09T20:00:00-05:00",
+      "allDay": false,
+      "location": "Trinity Presbyterian Church of Seven Springs 4651 LIttle Rd New Port Richey FL 34655",
+      "description": "Troop Meeting. Wear your Field uniform (Class A) with your Activity shirt (Class B) under it, and bring your handbook and water bottle, unless the weekly agenda says otherwise!"
+    },
+    {
+      "uid": "7041054@advancements.scouting.org",
+      "title": "Camping - Alafia River SP",
+      "start": "2026-11-13T18:00:00-05:00",
+      "end": "2026-11-15T11:00:00-05:00",
+      "allDay": false,
+      "location": "Alafia River SP 14326 S County Rd 39, Lithia, FL 33547",
+      "description": "Cycling"
+    },
+    {
+      "uid": "7042588@advancements.scouting.org",
+      "title": "Troop Meeting & Pack AOL Visit",
+      "start": "2026-11-16T18:30:00-05:00",
+      "end": "2026-11-16T20:00:00-05:00",
+      "allDay": false,
+      "location": "Trinity Presbyterian Church of Seven Springs 4651 LIttle Rd New Port Richey FL 34655",
+      "description": "Troop Meeting. Wear your Field uniform (Class A) with your Activity shirt (Class B) under it, and bring your handbook and water bottle, unless the weekly agenda says otherwise!"
+    },
+    {
+      "uid": "7042589@advancements.scouting.org",
+      "title": "No Scouts!",
+      "start": "2026-11-23T18:30:00-05:00",
+      "end": "2026-11-23T20:00:00-05:00",
+      "allDay": false,
+      "location": "Trinity Presbyterian Church of Seven Springs 4651 LIttle Rd New Port Richey FL 34655",
+      "description": "No school, No Scouts!"
+    },
+    {
+      "uid": "7042590@advancements.scouting.org",
+      "title": "Troop Meeting",
+      "start": "2026-11-30T18:30:00-05:00",
+      "end": "2026-11-30T20:00:00-05:00",
+      "allDay": false,
+      "location": "Trinity Presbyterian Church of Seven Springs 4651 LIttle Rd New Port Richey FL 34655",
+      "description": "Troop Meeting. Wear your Field uniform (Class A) with your Activity shirt (Class B) under it, and bring your handbook and water bottle, unless the weekly agenda says otherwise!"
+    },
+    {
+      "uid": "7042591@advancements.scouting.org",
+      "title": "Troop Meeting",
+      "start": "2026-12-07T18:30:00-05:00",
+      "end": "2026-12-07T20:00:00-05:00",
+      "allDay": false,
+      "location": "Trinity Presbyterian Church of Seven Springs 4651 LIttle Rd New Port Richey FL 34655",
+      "description": "Troop Meeting. Wear your Field uniform (Class A) with your Activity shirt (Class B) under it, and bring your handbook and water bottle, unless the weekly agenda says otherwise!"
+    },
+    {
+      "uid": "7006754@advancements.scouting.org",
+      "title": "Downtown NPR Holiday Parade",
+      "start": "2026-12-12T17:00:00-05:00",
+      "end": "2026-12-12T21:00:00-05:00",
+      "allDay": false,
+      "location": "Downtown New Port Richey",
+      "description": "Details TBD"
+    },
+    {
+      "uid": "7042592@advancements.scouting.org",
+      "title": "Troop Meeting",
+      "start": "2026-12-14T18:30:00-05:00",
+      "end": "2026-12-14T20:00:00-05:00",
+      "allDay": false,
+      "location": "Trinity Presbyterian Church of Seven Springs 4651 LIttle Rd New Port Richey FL 34655",
+      "description": "Troop Meeting. Wear your Field uniform (Class A) with your Activity shirt (Class B) under it, and bring your handbook and water bottle, unless the weekly agenda says otherwise!"
+    },
+    {
+      "uid": "7041056@advancements.scouting.org",
+      "title": "Camping - Sand Hill",
+      "start": "2026-12-18T18:00:00-05:00",
+      "end": "2026-12-20T11:00:00-05:00",
+      "allDay": false,
+      "location": "Sand Hill Scout Reservation 11210 Cortez Blvd, Brooksville, FL 34613",
+      "description": "Rifle"
+    },
+    {
+      "uid": "7042593@advancements.scouting.org",
+      "title": "No Scouts!",
+      "start": "2026-12-21T18:30:00-05:00",
+      "end": "2026-12-21T20:00:00-05:00",
+      "allDay": false,
+      "location": "Trinity Presbyterian Church of Seven Springs 4651 LIttle Rd New Port Richey FL 34655",
+      "description": "No school, No Scouts!"
+    },
+    {
+      "uid": "7042594@advancements.scouting.org",
+      "title": "No Scouts!",
+      "start": "2026-12-28T18:30:00-05:00",
+      "end": "2026-12-28T20:00:00-05:00",
+      "allDay": false,
+      "location": "Trinity Presbyterian Church of Seven Springs 4651 LIttle Rd New Port Richey FL 34655",
+      "description": "No school, No Scouts!"
+    },
+    {
+      "uid": "7042595@advancements.scouting.org",
+      "title": "Troop Meeting",
+      "start": "2027-01-04T18:30:00-05:00",
+      "end": "2027-01-04T20:00:00-05:00",
+      "allDay": false,
+      "location": "Trinity Presbyterian Church of Seven Springs 4651 LIttle Rd New Port Richey FL 34655",
+      "description": "Troop Meeting. Wear your Field uniform (Class A) with your Activity shirt (Class B) under it, and bring your handbook and water bottle, unless the weekly agenda says otherwise!"
+    },
+    {
+      "uid": "7042641@advancements.scouting.org",
+      "title": "Troop Ushering",
+      "start": "2027-01-10T09:30:00-05:00",
+      "end": "2027-01-10T11:00:00-05:00",
+      "allDay": false,
+      "location": "Trinity Presbyterian Church of Seven Springs, 4651 Little Rd, New Port Richey FL 34655",
+      "description": "Service to our Chartering Organization. Wear your Field Uniform/Class A. Arrive at 9:30 to hold doors and pass out programs. Scouts will help with the collection during the service."
+    },
+    {
+      "uid": "7042596@advancements.scouting.org",
+      "title": "Troop Meeting",
+      "start": "2027-01-11T18:30:00-05:00",
+      "end": "2027-01-11T20:00:00-05:00",
+      "allDay": false,
+      "location": "Trinity Presbyterian Church of Seven Springs 4651 LIttle Rd New Port Richey FL 34655",
+      "description": "Troop Meeting. Wear your Field uniform (Class A) with your Activity shirt (Class B) under it, and bring your handbook and water bottle, unless the weekly agenda says otherwise!"
+    },
+    {
+      "uid": "7041066@advancements.scouting.org",
+      "title": "Camping - FL Train Museum",
+      "start": "2027-01-15T18:00:00-05:00",
+      "end": "2027-01-17T11:00:00-05:00",
+      "allDay": false,
+      "location": "Florida Train Museum 12210 83rd St E, Parrish, FL 34219",
+      "description": "Railroading"
+    },
+    {
+      "uid": "7042597@advancements.scouting.org",
+      "title": "No Scouts!",
+      "start": "2027-01-18T18:30:00-05:00",
+      "end": "2027-01-18T20:00:00-05:00",
+      "allDay": false,
+      "location": "Trinity Presbyterian Church of Seven Springs 4651 LIttle Rd New Port Richey FL 34655",
+      "description": "No school, No Scouts!"
+    },
+    {
+      "uid": "7006773@advancements.scouting.org",
+      "title": "Pinewood Derby",
+      "start": "2027-01-23T10:00:00-05:00",
+      "end": "2027-01-23T14:00:00-05:00",
+      "allDay": false,
+      "location": "Deer Park Elementary School, 8636 Trouble Creek Rd, New Port Richey FL 34655",
+      "description": "Start your engines! Concessions will be available"
+    },
+    {
+      "uid": "7042598@advancements.scouting.org",
+      "title": "Troop Meeting",
+      "start": "2027-01-25T18:30:00-05:00",
+      "end": "2027-01-25T20:00:00-05:00",
+      "allDay": false,
+      "location": "Trinity Presbyterian Church of Seven Springs 4651 LIttle Rd New Port Richey FL 34655",
+      "description": "Troop Meeting. Wear your Field uniform (Class A) with your Activity shirt (Class B) under it, and bring your handbook and water bottle, unless the weekly agenda says otherwise!"
+    },
+    {
+      "uid": "7006787@advancements.scouting.org",
+      "title": "University of Scouting",
+      "start": "2027-01-30T09:00:00-05:00",
+      "end": "2027-01-30T16:00:00-05:00",
+      "allDay": false,
+      "location": "St Leo University",
+      "description": "For scouts, parents, and leaders!"
+    }
+  ]
+}
