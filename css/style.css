@@ -316,7 +316,20 @@ a{color:inherit}
     width:min(58vw,330px);
     transform:translate3d(calc(var(--px) * var(--d) * var(--shift)),calc(var(--py) * var(--d) * var(--shift) * .6),0)}
   .page-home .shield{width:min(200px,84%);margin-bottom:.35rem}
-  .page-home .tagline{font-size:clamp(.62rem,2.9vw,.85rem);margin-top:.35rem}
+  .page-home .tagline{
+    position:relative;isolation:isolate;
+    font-size:clamp(.62rem,2.9vw,.85rem);margin-top:.35rem;
+    text-shadow:0 0 6px rgba(255,252,246,.95),0 0 1px rgba(255,252,246,1)}
+  .page-home .tagline::before{
+    content:"";position:absolute;z-index:-1;left:50%;top:58%;width:168%;height:280%;
+    transform:translate(-50%,-50%);pointer-events:none;
+    background:radial-gradient(ellipse 58% 46% at 50% 48%,
+      rgba(255,252,246,.97) 0%,
+      rgba(251,245,232,.9) 32%,
+      rgba(255,244,220,.55) 54%,
+      rgba(255,236,200,.22) 72%,
+      transparent 84%);
+    filter:blur(8px)}
   .tilt-btn{right:10px;bottom:16px;font-size:12px}
   .scroll-cue{display:none}
   .welcome{padding-top:clamp(40px,8vw,64px)}
