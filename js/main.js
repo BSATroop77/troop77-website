@@ -5,7 +5,7 @@
     link.className = "join-fab";
     link.href = prefix + "join.html";
     link.setAttribute("aria-label", "Join Troop 77");
-    link.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 12.2a3.6 3.6 0 1 0-3.6-3.6 3.6 3.6 0 0 0 3.6 3.6z"/><path fill="currentColor" d="M5.2 19.2a6.8 6.8 0 0 1 13.6 0v.6H5.2z"/></svg><span>Join</span>';
+    link.innerHTML = '<i class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 12.2a3.6 3.6 0 1 0-3.6-3.6 3.6 3.6 0 0 0 3.6 3.6z"/><path fill="currentColor" d="M5.2 19.2a6.8 6.8 0 0 1 13.6 0v.6H5.2z"/></svg></i><span>Join</span>';
     document.body.appendChild(link);
   }
 

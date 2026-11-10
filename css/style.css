@@ -441,14 +441,15 @@ a{color:inherit}
 
 /* Join control and history buttons. These copy the home-button look without changing the main nav. */
 .join-fab{
-  position:fixed;z-index:45;right:16px;bottom:calc(18px + env(safe-area-inset-bottom,0px));
+  position:fixed;z-index:45;right:calc(16px + 40px);bottom:calc(18px + env(safe-area-inset-bottom,0px));
   display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;text-decoration:none;
   width:80px;height:80px;border-radius:50%;color:#fff;text-align:center;
   background:radial-gradient(circle at 50% 35%,var(--navy-2),var(--navy) 60%,var(--navy-3));
   border:3px solid var(--gold);
   box-shadow:0 0 0 2px var(--navy-3),0 4px 10px rgba(0,0,0,.5),inset 0 2px 3px rgba(255,255,255,.12);
   transition:transform .2s ease,box-shadow .2s ease,border-color .2s}
-.join-fab svg{width:26px;height:26px;color:var(--gold-2)}
+.join-fab .ico{display:grid;place-items:center;font-size:26px;color:var(--gold-2);line-height:1}
+.join-fab .ico svg{width:1em;height:1em}
 .join-fab span{
   font-family:var(--font-head);font-weight:500;font-size:10.5px;letter-spacing:.05em;
   text-transform:uppercase;line-height:1.05}
@@ -500,21 +501,23 @@ a{color:inherit}
 .blog-post p{margin:0;color:var(--navy);line-height:1.55;white-space:pre-line}
 .blog-images{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-top:12px}
 .blog-images img{width:100%;height:180px;object-fit:cover;border-radius:10px;border:3px solid var(--gold)}
-@media (max-width:899px){
+@media (max-width:899px) and (orientation:portrait){
   .join-fab{
-    flex-direction:row;justify-content:flex-start;width:auto;height:auto;gap:0;border:0;border-radius:0;
+    flex-direction:row-reverse;justify-content:flex-start;width:auto;height:auto;gap:0;border:0;border-radius:0;
     background:none;box-shadow:none;right:10px;bottom:calc(12px + env(safe-area-inset-bottom,0px))}
-  .join-fab svg{
-    width:22px;height:22px;padding:10px;box-sizing:content-box;border-radius:50%;
+  .join-fab .ico{
+    position:relative;z-index:1;width:46px;height:46px;flex:none;border-radius:50%;font-size:21px;
     background:radial-gradient(circle at 50% 35%,var(--navy-2),var(--navy) 60%,var(--navy-3));
     border:3px solid var(--gold);box-shadow:0 0 0 2px var(--navy-3),0 3px 8px rgba(0,0,0,.5)}
   .join-fab span{
-    margin-left:-12px;padding:0 14px 0 18px;min-height:36px;display:flex;align-items:center;
-    font-size:12.5px;font-weight:600;border-radius:0 999px 999px 0;
+    margin:0 -12px 0 0;padding:0 20px 0 16px;min-height:36px;min-width:92px;display:flex;align-items:center;justify-content:flex-end;
+    font-size:12.5px;font-weight:600;text-align:right;border-radius:999px 0 0 999px;
     background:linear-gradient(to bottom,var(--navy-2),var(--navy) 60%,var(--navy-3));
-    border:1.5px solid rgba(217,164,65,.65);border-left:0;box-shadow:0 3px 8px rgba(0,0,0,.45)}
-  .join-fab:hover,.join-fab:focus-visible{transform:translateX(3px);box-shadow:none}
+    border:1.5px solid rgba(217,164,65,.65);border-right:0;box-shadow:0 3px 8px rgba(0,0,0,.45)}
+  .join-fab:hover,.join-fab:focus-visible{transform:translateX(-3px);box-shadow:none}
   .page-home .join-fab{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
+}
+@media (max-width:899px){
   .history-nav{grid-template-columns:1fr}
   .trip-map{height:280px}
 }
