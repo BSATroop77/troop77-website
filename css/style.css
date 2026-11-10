@@ -160,7 +160,11 @@ a{color:inherit}
 .placeholder{font-style:italic;color:#5b6475;font-size:1.05rem;line-height:1.55}
 .about-intro p{margin:0;font-size:1.08rem;line-height:1.6}
 .news-intro{text-align:center}
-.news-intro p{margin:0 0 14px;font-size:1.08rem;line-height:1.5}
+.news-intro h2,.older-news h2{
+  margin:0 0 14px;font-family:var(--font-head);font-weight:700;text-transform:uppercase;
+  letter-spacing:.03em;color:var(--navy);font-size:clamp(1.5rem,3vw,2rem);text-align:center}
+.older-news{margin-top:48px}
+.older-news[hidden]{display:none}
 .fb-follow{
   display:inline-flex;align-items:center;text-decoration:none;color:#fff;
   background:var(--navy);border:2px solid var(--gold);border-radius:999px;

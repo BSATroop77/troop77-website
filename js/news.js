@@ -8,6 +8,15 @@
     }[ch]));
   }
 
+  function postsFrom(data) {
+    const posts = Array.isArray(data) ? data : (data && data.posts);
+    return Array.isArray(posts) ? posts : [];
+  }
+
+  function renderCards(posts) {
+    return `<div class="cards news-cards">${posts.map(renderPost).join("")}</div>`;
+  }
+
   function renderPost(post) {
     const when = post.created_time
       ? new Intl.DateTimeFormat("en-US", {
@@ -46,10 +55,27 @@
       return response.json();
     })
     .then((data) => {
-      const posts = Array.isArray(data) ? data : (data && data.posts);
-      if (!posts || !posts.length) throw new Error("empty");
+      const posts = postsFrom(data);
+      if (!posts.length) throw new Error("empty");
       const latest = posts.slice().sort((a, b) => String(b.created_time || "").localeCompare(String(a.created_time || ""))).slice(0, 4);
-      feed.innerHTML = `<div class="cards news-cards">${latest.map(renderPost).join("")}</div>`;
+      feed.innerHTML = renderCards(latest);
     })
     .catch(() => {});
+
+  const older = document.getElementById("older-news");
+  const olderFeed = document.getElementById("older-news-feed");
+  if (older && olderFeed) {
+    fetch("data/older-news.json")
+      .then((response) => {
+        if (!response.ok) throw new Error(String(response.status));
+        return response.json();
+      })
+      .then((data) => {
+        const posts = postsFrom(data);
+        if (!posts.length) return;
+        olderFeed.innerHTML = renderCards(posts);
+        older.hidden = false;
+      })
+      .catch(() => {});
+  }
 })();
