@@ -1,9 +1,24 @@
 {
   "links": [
     {
+      "title": "State Parks",
+      "url": "https://www.stateparks.com/"
+    },
+    {
       "title": "Florida State Parks",
-      "description": "Park guides, camping, and reservations for Florida state parks.",
       "url": "https://www.floridastateparks.org/"
+    },
+    {
+      "title": "Georgia State Parks",
+      "url": "https://gastateparks.org/"
+    },
+    {
+      "title": "Alabama State Parks",
+      "url": "https://www.alapark.com/"
+    },
+    {
+      "title": "South Carolina State Parks",
+      "url": "https://southcarolinaparks.com/"
     }
   ]
 }

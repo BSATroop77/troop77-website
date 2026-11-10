@@ -1,8 +1,24 @@
 {
   "links": [
     {
-      "title": "Menu planning",
-      "description": "Placeholder — menu planning links will go here."
+      "title": "Boy Scout Trail Camping Recipes",
+      "url": "https://www.boyscouttrail.com/boy-scouts/boy-scout-recipes.asp"
+    },
+    {
+      "title": "Pinterest Camping Recipes",
+      "url": "https://www.pinterest.com/nmzoocrew/boy-scouts-camping-foods/"
+    },
+    {
+      "title": "Scouting Resources Camping Recipes",
+      "url": "https://www.scoutingresources.org.uk/downloads/cooking_camprecipes_001.pdf"
+    },
+    {
+      "title": "Recipes.Com Camping Recipes",
+      "url": "https://allrecipes.com/recipes/1529/everyday-cooking/on-the-go/camping/"
+    },
+    {
+      "title": "R40+ of the BEST Camping Recipes",
+      "url": "https://kitchenfunwithmy3sons.com/2017/04/best-camping-recipes.html/"
     }
   ]
 }

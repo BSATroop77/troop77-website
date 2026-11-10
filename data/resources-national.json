@@ -1,14 +1,8 @@
 {
   "links": [
     {
-      "title": "Scouting America",
-      "description": "The official Scouting America website.",
+      "title": "BSA National Council",
       "url": "https://www.scouting.org/"
-    },
-    {
-      "title": "Scoutbook",
-      "description": "Advancement, roster, and scout records.",
-      "url": "https://scoutbook.scouting.org/"
     }
   ]
 }

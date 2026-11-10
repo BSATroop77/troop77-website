@@ -1,8 +1,56 @@
 {
   "links": [
     {
-      "title": "Annual Health and Medical Record",
-      "description": "Placeholder — the form link is still to be added."
+      "title": "The Scout Zone",
+      "url": "https://www.thescoutzone.org/"
+    },
+    {
+      "title": "ScoutStuff.org",
+      "url": "https://www.scoutstuff.org/bsasupply/"
+    },
+    {
+      "title": "Scoutorama.com",
+      "url": "https://www.scoutorama.com/"
+    },
+    {
+      "title": "The Insane Scouter",
+      "url": "https://insanescouter.org/"
+    },
+    {
+      "title": "Scouter Forums",
+      "url": "https://www.scouter.com/"
+    },
+    {
+      "title": "Boys' Life",
+      "url": "https://boyslife.org/"
+    },
+    {
+      "title": "Scouting Magazine",
+      "url": "https://www.scoutingmagazine.org/"
+    },
+    {
+      "title": "The Boy Scout Trail",
+      "url": "https://www.boyscouttrail.com/"
+    },
+    {
+      "title": "Scouting Forms from the National Council",
+      "url": "https://www.scouting.org/forms.aspx"
+    },
+    {
+      "title": "Eagle Scout Resource Center",
+      "url": "https://www.eaglescout.org/"
+    },
+    {
+      "title": "The Boy Scout Handbook",
+      "url": "https://www.bsahandbook.org/"
+    },
+    {
+      "title": "Citizenship in the Community - Letter to Senator.",
+      "url": "https://www.wikihow.com/Write-a-Letter-to-Your-United-States-Senator"
+    },
+    {
+      "title": "Scout Skillz Challenges",
+      "url": "https://www.programresources.org/scout-skill-challenges/"
     }
   ]
 }

@@ -1,8 +1,89 @@
 {
   "links": [
     {
-      "title": "Camp links",
-      "description": "Placeholder — summer camp websites and guides will go here."
+      "title": "Summit Bechtel",
+      "url": "https://www.summitbsa.org/",
+      "description": "West Virginia"
+    },
+    {
+      "title": "Daniel Boone (2014 Summer Camp)",
+      "url": "https://www.campdanielboone.org/",
+      "description": "North Carolina"
+    },
+    {
+      "title": "Raven Knob (2013 Summer Camp)",
+      "url": "https://www.ravenknob.com/",
+      "description": "North Carolina"
+    },
+    {
+      "title": "Camp Bodie",
+      "url": "https://www.eccbsa.org/Camping/Camp%20Boddie.aspx",
+      "description": "North Carolina"
+    },
+    {
+      "title": "Camp Barstow",
+      "url": "https://www.indianwaters.org/iwcn/campbarstow.aspx",
+      "description": "South Carolina"
+    },
+    {
+      "title": "Camp Ho Non Wah",
+      "url": "https://www.camphnw.com/",
+      "description": "South Carolina"
+    },
+    {
+      "title": "Bert Adams (2015 Summer Camp)",
+      "url": "https://www.campbertadams.org/",
+      "description": "Georgia"
+    },
+    {
+      "title": "Camp Thunder",
+      "url": "https://www.flintrivercouncil.org/Camp/BoyScoutOutdoor/Camp%20Thunder",
+      "description": "Georgia"
+    },
+    {
+      "title": "Camp Comer",
+      "url": "https://1bsa.org/camp.php?cn=8",
+      "description": "Alabama"
+    },
+    {
+      "title": "Camp Sequoyah",
+      "url": "https://1bsa.org/camp.php?cn=13",
+      "description": "Alabama"
+    },
+    {
+      "title": "Camp V-Bar / Salmen Scout Reservation",
+      "url": "https://www.bsa-selacouncil.org/camping/boy-scout-camping/summer-camp/1416",
+      "description": "Mississippi"
+    },
+    {
+      "title": "Skymont (2012 Summer Camp)",
+      "url": "https://www.skymont.org/",
+      "description": "Tennessee"
+    },
+    {
+      "title": "Camp Davy Crockett",
+      "url": "https://campdavycrockett.org/",
+      "description": "Tennessee"
+    },
+    {
+      "title": "Swamp Base",
+      "url": "https://www.bsaswampbase.org/",
+      "description": "Louisiana"
+    },
+    {
+      "title": "Shands",
+      "url": "https://www.campshands.org/summercamp",
+      "description": "Florida"
+    },
+    {
+      "title": "La No Che",
+      "url": "https://camplanoche.com/",
+      "description": "Florida"
+    },
+    {
+      "title": "Sea Base",
+      "url": "https://bsaseabase.org/",
+      "description": "Florida"
     }
   ]
 }

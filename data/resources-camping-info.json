@@ -1,8 +1,28 @@
 {
   "links": [
     {
-      "title": "Camping information",
-      "description": "Placeholder — packing lists and camping guides will go here."
+      "title": "Primitive Sites at Florida State Parks",
+      "url": "https://www.floridastateparks.org/activity-list/Camping,-Primitive-Grp"
+    },
+    {
+      "title": "Primitive Sites in Florida",
+      "url": "https://floridahikes.com/primitive-camping"
+    },
+    {
+      "title": "Developed Sites in Florida",
+      "url": "https://floridahikes.com/developed-camping"
+    },
+    {
+      "title": "Beach Camping",
+      "url": "https://www.visitflorida.com/en-us/florida-beaches/florida-beach-camping-guide.html"
+    },
+    {
+      "title": "Best Camping Near Tampa Bay",
+      "url": "https://www.floridarambler.com/florida-camping/best-camping-near-tampa/"
+    },
+    {
+      "title": "Top Florida Camping Sites per Region",
+      "url": "https://www.visitflorida.com/en-us/things-to-do/outdoors-nature/top-florida-camping-sites-per-region.html"
     }
   ]
 }
