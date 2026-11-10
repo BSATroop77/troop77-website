@@ -1,6 +1,23 @@
 {
+  "tbd": ["2021", "2022", "2023", "2024", "2025", "2026"],
   "camps": [
-    {"year": "20xx", "camp": "Placeholder summer camp", "location": "Placeholder location"},
-    {"year": "20xx", "camp": "Placeholder summer camp", "location": "Placeholder location"}
+    {"year": "2026", "camp": "TBD", "tbd": true},
+    {"year": "2025", "camp": "TBD", "tbd": true},
+    {"year": "2024", "camp": "TBD", "tbd": true},
+    {"year": "2023", "camp": "TBD", "tbd": true},
+    {"year": "2022", "camp": "TBD", "tbd": true},
+    {"year": "2021", "camp": "TBD", "tbd": true},
+    {"year": "2020", "camp": "Washington DC", "cancelled": true},
+    {"year": "2019", "camp": "Camp Thunder"},
+    {"year": "2018", "camp": "Skymont"},
+    {"year": "2017", "camp": "Rainey Mountain"},
+    {"year": "2016", "camp": "Goshen/Olmstead"},
+    {"year": "2015", "camp": "Bert Adams"},
+    {"year": "2014", "camp": "Daniel Boone/Camp Bechtel"},
+    {"year": "2013", "camp": "Ravens Knob"},
+    {"year": "2012", "camp": "Skymont"},
+    {"year": "2011", "camp": "Bob Hardin"},
+    {"year": "2010", "camp": "Bob Hardin"},
+    {"year": "2009", "camp": "Daniel Boone"}
   ]
 }
