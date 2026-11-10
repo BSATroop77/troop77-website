@@ -185,6 +185,30 @@ a{color:inherit}
 .news-date{margin:0 0 .35em;font-family:var(--font-head);font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:var(--gold-3);font-size:.85rem}
 .news-text{white-space:pre-line;margin:0 0 .8em;color:var(--navy);line-height:1.5;overflow-wrap:anywhere}
 .news-text a{text-decoration:underline;text-underline-offset:2px}
+.cards.adventure-cards{grid-template-columns:repeat(auto-fit,minmax(280px,1fr));align-items:start}
+.card.adventure-card{padding:0;overflow:hidden;border-top:0;background:#fff}
+.adventure-frame{
+  position:relative;height:220px;overflow:hidden;border-radius:12px;
+  border:3px solid var(--gold);
+  box-shadow:0 0 0 2px var(--navy-3),0 4px 10px rgba(0,0,0,.45);
+  background:radial-gradient(circle at 50% 28%,var(--navy-2),var(--navy) 58%,var(--navy-3))}
+.adventure-frame img{display:none;width:100%;height:100%;object-fit:cover}
+.adventure-frame.has-photo img{display:block}
+.adventure-frame.has-photo .adventure-mark{display:none}
+.adventure-mark{
+  position:absolute;left:0;right:0;top:18px;display:grid;place-items:center;
+  color:var(--gold);font-size:54px;filter:drop-shadow(0 2px 6px rgba(0,0,0,.35))}
+.adventure-mark svg{width:1em;height:1em}
+.card.adventure-card .adventure-name{
+  position:absolute;left:0;right:0;bottom:0;margin:0;padding:42px 12px 12px;text-align:center;
+  font-family:var(--font-head);font-weight:600;text-transform:uppercase;letter-spacing:.03em;
+  color:#fff;font-size:clamp(.95rem,1.5vw,1.15rem);line-height:1.15;
+  background:linear-gradient(to top,rgba(12,23,41,.94) 0%,rgba(12,23,41,.72) 42%,rgba(12,23,41,0) 100%);
+  text-shadow:0 1px 2px rgba(0,0,0,.55)}
+.card.adventure-card .adventure-desc{margin:0;padding:12px 14px 14px;color:var(--navy);line-height:1.45}
+@media (max-width:899px){
+  .cards.adventure-cards{grid-template-columns:1fr}
+}
 @media (max-width:899px){
   .fb-card,.fb-embed,.fb-embed iframe{max-width:100%}
   .fb-embed iframe{height:70vh;min-height:480px}
