@@ -1,7 +1,589 @@
 {
-  "trips": [
-    {"date": "Month 20xx", "place": "Placeholder campsite", "lat": 28.274, "lng": -82.717, "notes": "Placeholder — replace with a real trip."},
-    {"date": "Month 20xx", "place": "Placeholder camp", "lat": 28.55, "lng": -82.39, "notes": "Placeholder — replace with a real trip."},
-    {"date": "Month 20xx", "place": "Placeholder outpost", "lat": 29.19, "lng": -82.14, "notes": "Placeholder — replace with a real trip."}
+  "years": [
+    {
+      "year": "2026",
+      "tbd": true,
+      "trips": [
+        {
+          "month": "",
+          "place": "Trips to be added"
+        }
+      ]
+    },
+    {
+      "year": "2025",
+      "tbd": true,
+      "trips": [
+        {
+          "month": "",
+          "place": "Trips to be added"
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "tbd": true,
+      "trips": [
+        {
+          "month": "",
+          "place": "Trips to be added"
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "tbd": true,
+      "trips": [
+        {
+          "month": "",
+          "place": "Trips to be added"
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "tbd": true,
+      "trips": [
+        {
+          "month": "",
+          "place": "Trips to be added"
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "tbd": true,
+      "trips": [
+        {
+          "month": "",
+          "place": "Trips to be added"
+        }
+      ]
+    },
+    {
+      "year": "2020",
+      "trips": [
+        {
+          "month": "January",
+          "place": "Florida Keys",
+          "url": "https://www.floridastateparks.org/BahiaHonda"
+        },
+        {
+          "month": "February",
+          "place": "Wall Springs Park",
+          "location": "Tarpon Springs, FL",
+          "url": "https://www.pinellascounty.org/park/21_Wall_Springs.htm"
+        },
+        {
+          "month": "March",
+          "place": "Brooksville Airport",
+          "location": "Brooksville, FL",
+          "url": "http://www.eaa1298.com"
+        },
+        {
+          "month": "April",
+          "place": "Camp Soule",
+          "location": "Clearwater, FL",
+          "cancelled": true
+        },
+        {
+          "month": "May",
+          "place": "Tree Hoppers",
+          "location": "Dade City, FL",
+          "cancelled": true
+        },
+        {
+          "month": "June",
+          "place": "Washington DC",
+          "cancelled": true
+        }
+      ]
+    },
+    {
+      "year": "2019",
+      "trips": [
+        {
+          "month": "January",
+          "place": "Peace River",
+          "location": "Arcadia, FL",
+          "url": "https://desotobocc.com/?/department/parks_recreation/brownville-park-and-boat-ramp"
+        },
+        {
+          "month": "February",
+          "place": "Green Swamp - Hampton Track",
+          "location": "Polk City, FL",
+          "url": "https://www.swfwmd.state.fl.us/recreation/hampton-tract"
+        },
+        {
+          "month": "March",
+          "place": "Flaming Arrow Scout Reservation",
+          "location": "Lake Wales, FL",
+          "url": "https://tampabayscouting.org/camps/flaming-arrow-scout-reservation"
+        },
+        {
+          "month": "April",
+          "place": "Flaming Arrow Scout Reservation",
+          "location": "Lake Wales, FL",
+          "url": "https://tampabayscouting.org/camps/flaming-arrow-scout-reservation"
+        },
+        {
+          "month": "May",
+          "place": "G|5201013.RR.AM.01.01|MZMWDMS|BR|452591314484&keyword_id=kwd-18342640943|dc|%2Bfort%20%2Bwilderness|452591314484|b|5060:3|&gclid=CjwKCAjw2dD7BRASEiwAWCtCb30HNbF67Dfx_aP-w0AydUOEcvXLSIgxS_LjBbFiKDrV7N601HkkExoCc4IQAvD_BwE|Fort Wilderness / Aquatica",
+          "url": "https://disneyworld.disney.go.com/resorts/cabins-at-fort-wilderness-resort"
+        },
+        {
+          "month": "June",
+          "place": "Camp Thunder",
+          "location": "Molena, GA",
+          "url": "http://www.flintrivercouncil.org/camping/scouts-bsa-camping/camp-thunder-summer-camp-2021/60956"
+        },
+        {
+          "month": "September",
+          "place": "Patrick Air force Base",
+          "location": "Brevard County, FL",
+          "url": "https://www.patrick.af.mil"
+        },
+        {
+          "month": "October",
+          "place": "Weeki Wachee River",
+          "location": "Weeki Wachee, FL",
+          "url": "https://weekiwachee.com"
+        },
+        {
+          "month": "November",
+          "place": "Santos Trailhead",
+          "location": "Ocala, FL",
+          "url": "https://www.floridastateparks.org/parks-and-trails/santos-trailhead-campground"
+        }
+      ]
+    },
+    {
+      "year": "2018",
+      "trips": [
+        {
+          "month": "January",
+          "place": "Cloudmont Ski Resort",
+          "location": "Mentone, AL",
+          "url": "http://cloudmont.com"
+        },
+        {
+          "month": "February",
+          "place": "Lakewood Retreat",
+          "location": "Brooksville, FL (Sandhill Scout Reservation)",
+          "url": "http://lakewoodretreat.org"
+        },
+        {
+          "month": "March",
+          "place": "Hidden Lakes Airport - Young Eagles Program",
+          "location": "New Port Richey, FL (Crews Lake Wilderness park)",
+          "url": "http://hiddenlakeairport.com"
+        },
+        {
+          "month": "April",
+          "place": "Sun Coast Trail",
+          "location": "New Port Richey, FL (Crews Lake Wilderness park)",
+          "url": "http://www.pascocountyfl.net/673/Suncoast-Trail"
+        },
+        {
+          "month": "May",
+          "place": "Empower Adventure",
+          "location": "Oldsmar, FL (Camp Brorein)",
+          "url": "https://www.zipontampabay.com"
+        },
+        {
+          "month": "June",
+          "place": "Skymont Scout Reservation",
+          "location": "Altamont, TN",
+          "url": "http://www.skymont.org"
+        },
+        {
+          "month": "September",
+          "place": "Weeki Wachee River",
+          "location": "Weeki Wachee, FL",
+          "url": "https://weekiwachee.com"
+        },
+        {
+          "month": "October",
+          "place": "Beaumont Ranch",
+          "location": "Land O Lakes, FL",
+          "url": "https://www.beaumontranch.net"
+        },
+        {
+          "month": "November",
+          "place": "Silver Dollar Shooters Club",
+          "location": "Odessa, FL",
+          "url": "http://silverdollartrap.com"
+        },
+        {
+          "month": "December",
+          "place": "Anclote Island",
+          "location": "Tarpon Springs, FL",
+          "url": "https://www.floridastateparks.org/parks-and-trails/anclote-key-preserve-state-park"
+        }
+      ]
+    },
+    {
+      "year": "2017",
+      "trips": [
+        {
+          "month": "January",
+          "place": "Green Swamp West Tract",
+          "location": "Dade City, FL",
+          "url": "http://www.swfwmd.state.fl.us/recreation/areas/greenswamp-west.html"
+        },
+        {
+          "month": "February",
+          "place": "Flaming Arrow Scout Reservation",
+          "location": "Lake Wales, FL",
+          "url": "https://tampabayscouting.org/camps/flaming-arrow-scout-reservation"
+        },
+        {
+          "month": "March",
+          "place": "Camp Owen J Brorein",
+          "location": "Odessa, FL",
+          "url": "https://tampabayscouting.org/camps/camp-owen-j-brorein"
+        },
+        {
+          "month": "April",
+          "place": "Sun N Fun Flyin",
+          "location": "Lakeland, FL",
+          "url": "http://www.flysnf.org/rv-tent-camping"
+        },
+        {
+          "month": "May",
+          "place": "Disney Fort Wilderness / Typhoon Lagoon",
+          "location": "Lake Buena Vista, FL",
+          "url": "https://disneyworld.disney.go.com/resorts/campsites-at-fort-wilderness-resort"
+        },
+        {
+          "month": "June",
+          "place": "Summer Camp - Rainey Mountain",
+          "location": "Clayton, GA",
+          "url": "http://nega-bsa.org/camps/rainey-mountain"
+        },
+        {
+          "month": "September",
+          "place": "AquaKnots - Camp Soule",
+          "location": "Clearwater, FL",
+          "url": "http://tampabayscouting.doubleknot.com/document/aquaknots-leaders-guide/174072"
+        },
+        {
+          "month": "October",
+          "place": "Weeki Wachee River",
+          "location": "Weeki Wachee, FL",
+          "url": "https://weekiwachee.com"
+        },
+        {
+          "month": "November",
+          "place": "Smith Gun Range",
+          "location": "East Palatka, FL"
+        },
+        {
+          "month": "December",
+          "place": "Flaming Arrow Scout Reservation",
+          "location": "Lake Wales, FL",
+          "url": "https://tampabayscouting.org/camps/flaming-arrow-scout-reservation"
+        }
+      ]
+    },
+    {
+      "year": "2016",
+      "trips": [
+        {
+          "month": "January",
+          "place": "Sand Hill Boy Scout Camp",
+          "location": "Brooksville, FL",
+          "url": "http://www.sandhillscoutreservation.com"
+        },
+        {
+          "month": "February",
+          "place": "Camp Brorein",
+          "location": "Odessa, FL",
+          "url": "http://tampabayscouting.org/camps/camp-owen-j-brorein"
+        },
+        {
+          "month": "March",
+          "place": "Wall Springs Park",
+          "location": "Palm Harbor, FL"
+        },
+        {
+          "month": "April",
+          "place": "Starkey Park",
+          "location": "Trinity, FL",
+          "url": "http://www.swfwmd.state.fl.us/recreation/areas/starkey-park.html"
+        },
+        {
+          "month": "May",
+          "place": "Ross Prairie Campground",
+          "location": "Dunnellon, FL (Rainbow River)",
+          "url": "https://www.floridastateparks.org/content/ross-prairie-trailhead-campground"
+        },
+        {
+          "month": "June",
+          "place": "Summer Camp",
+          "location": "Camp Olmstead, NC",
+          "url": "http://www.ncacbsa.org/outdoors/goshen-camps/camp-olmsted"
+        },
+        {
+          "month": "October",
+          "place": "MacDill Air Force Base",
+          "location": "Tampa, FL",
+          "url": "http://www.macdillfss.com/mainmenusub-rc.aspx?SectionID=436"
+        },
+        {
+          "month": "December",
+          "place": "Serenova Tract (Starkey)",
+          "location": "Land O Lakes, FL",
+          "url": "http://www.swfwmd.state.fl.us/recreation/areas/starkey-serenova.html"
+        }
+      ]
+    },
+    {
+      "year": "2015",
+      "trips": [
+        {
+          "month": "January",
+          "place": "Sand Hill",
+          "location": "Brooksville, FL",
+          "url": "http://www.sandhillscoutreservation.com"
+        },
+        {
+          "month": "February",
+          "place": "Wall Springs Park",
+          "location": "Palm Harbor, FL"
+        },
+        {
+          "month": "April",
+          "place": "Otter Springs",
+          "location": "Trenton, FL",
+          "url": "http://www.ottersprings.com"
+        },
+        {
+          "month": "May",
+          "place": "Fort Wilderness",
+          "location": "Lake Buena Vista, FL",
+          "url": "https://disneyworld.disney.go.com/resorts/campsites-at-fort-wilderness-resort"
+        },
+        {
+          "month": "June",
+          "place": "Summer Camp - Bert Adams",
+          "location": "Covington, GA",
+          "url": "http://www.atlantabsa.org/programs/boy-scout-summer-camp/57534"
+        },
+        {
+          "month": "September",
+          "place": "Camp Soule / Aquaknots",
+          "location": "Clearwater, FL",
+          "url": "https://tampabayscouting.org/camps/camp-soule"
+        },
+        {
+          "month": "October",
+          "place": "Crews Lake",
+          "location": "Springhill, FL",
+          "url": "http://www.pascocountyfl.net/index.aspx?NID=305"
+        }
+      ]
+    },
+    {
+      "year": "2014",
+      "trips": [
+        {
+          "month": "January",
+          "place": "Starkey Park",
+          "location": "Trinity, FL",
+          "url": "http://www.swfwmd.state.fl.us/recreation/areas/starkey-park.html"
+        },
+        {
+          "month": "March",
+          "place": "Florida Caverns State Park",
+          "location": "Marianna, FL",
+          "url": "https://www.floridastateparks.org/park/Florida-Caverns"
+        },
+        {
+          "month": "April",
+          "place": "Sun N Fun Flyin",
+          "location": "Lakeland, FL",
+          "url": "http://www.flysnf.org/rv-tent-camping"
+        },
+        {
+          "month": "May",
+          "place": "Disney Fort Wilderness",
+          "location": "Lake Buena Vista, FL",
+          "url": "https://disneyworld.disney.go.com/resorts/campsites-at-fort-wilderness-resort"
+        },
+        {
+          "month": "June",
+          "place": "Camp Daniel Boone",
+          "location": "Canton, NC",
+          "url": "https://www.campdanielboone.org"
+        },
+        {
+          "month": "September",
+          "place": "Camp Soule / Aquaknots",
+          "location": "Clearwater, FL",
+          "url": "https://tampabayscouting.org/camps/camp-soule"
+        },
+        {
+          "month": "October",
+          "place": "Fort Desoto",
+          "location": "Tierra Verde, FL",
+          "url": "http://www.pinellascounty.org/park/05_ft_desoto.htm"
+        },
+        {
+          "month": "November",
+          "place": "Smith Gun Range",
+          "location": "East Palatka, FL"
+        },
+        {
+          "month": "December",
+          "place": "Serenova Tract (Starkey)",
+          "location": "Land O Lakes, FL",
+          "url": "http://www.swfwmd.state.fl.us/recreation/areas/starkey-serenova.html"
+        }
+      ]
+    },
+    {
+      "year": "2013",
+      "trips": [
+        {
+          "month": "January",
+          "place": "Sand Hill (Brooksville Raid)",
+          "location": "Brooksville, FL",
+          "url": "http://www.sandhillscoutreservation.com"
+        },
+        {
+          "month": "February",
+          "place": "Crews Lake",
+          "location": "Springhill, FL",
+          "url": "http://www.pascocountyfl.net/index.aspx?NID=305"
+        },
+        {
+          "month": "March",
+          "place": "Wall Springs Park",
+          "location": "Palm Harbor, FL"
+        },
+        {
+          "month": "April",
+          "place": "Camp La-No-Che"
+        },
+        {
+          "month": "May",
+          "place": "Disney Fort Wilderness",
+          "location": "Lake Buena Vista, FL",
+          "url": "https://disneyworld.disney.go.com/resorts/campsites-at-fort-wilderness-resort"
+        },
+        {
+          "month": "June",
+          "place": "Summer Camp",
+          "location": "Raven Knob, NC"
+        },
+        {
+          "month": "September",
+          "place": "Camp Soule / Aquaknots",
+          "location": "Clearwater, FL",
+          "url": "https://tampabayscouting.org/camps/camp-soule"
+        },
+        {
+          "month": "October",
+          "place": "Smith Gun Range",
+          "location": "East Palatka, FL"
+        },
+        {
+          "month": "November",
+          "place": "Sand Hill",
+          "location": "Brooksville, FL",
+          "url": "http://www.sandhillscoutreservation.com"
+        },
+        {
+          "month": "December",
+          "place": "Serenova Tract (Starkey)",
+          "location": "Land O Lakes, FL",
+          "url": "http://www.swfwmd.state.fl.us/recreation/areas/starkey-serenova.html"
+        }
+      ]
+    },
+    {
+      "year": "2012",
+      "trips": [
+        {
+          "month": "January",
+          "place": "Highland Hammock Park"
+        },
+        {
+          "month": "February",
+          "place": "Lakewood Retreat"
+        },
+        {
+          "month": "March",
+          "place": "Crystal River"
+        },
+        {
+          "month": "April",
+          "place": "Camp LeNoche / SeaWorld"
+        },
+        {
+          "month": "May",
+          "place": "Suwannee River"
+        },
+        {
+          "month": "June",
+          "place": "Summer Camp",
+          "location": "Skymont"
+        }
+      ]
+    },
+    {
+      "year": "2011",
+      "trips": [
+        {
+          "month": "September",
+          "place": "Fantasy of Flight"
+        },
+        {
+          "month": "October",
+          "place": "Sandhill"
+        },
+        {
+          "month": "November",
+          "place": "Hillsborough State Park"
+        },
+        {
+          "month": "December",
+          "place": "Bigfoot Wilderness"
+        }
+      ]
+    },
+    {
+      "year": "2010",
+      "trips": [
+        {
+          "month": "January",
+          "place": "Brooksville Raid",
+          "location": "Sandhill"
+        }
+      ]
+    },
+    {
+      "year": "2009",
+      "trips": [
+        {
+          "month": "November",
+          "place": "Starkey Park"
+        },
+        {
+          "month": "October",
+          "place": "Twin Rivers District Camporee"
+        }
+      ]
+    },
+    {
+      "year": "2008",
+      "trips": [
+        {
+          "month": "February",
+          "place": "Camp Lone Oak"
+        }
+      ]
+    }
   ]
 }
