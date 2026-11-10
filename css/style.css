@@ -169,6 +169,23 @@ a{color:inherit}
 .card p+p{margin-top:.7em}
 .card a{color:var(--navy);font-weight:600}
 .card a:hover,.card a:focus-visible{color:var(--gold-3)}
+.leader{max-width:40rem}
+.leader-photo{
+  width:148px;height:148px;margin:2px 0 18px;border-radius:50%;
+  border:4px solid var(--gold);
+  background:radial-gradient(circle at 50% 32%,var(--navy-2),var(--navy) 62%,var(--navy-3));
+  display:grid;place-items:center;
+  box-shadow:0 4px 14px rgba(20,36,63,.28)}
+.leader-photo svg{width:58%;height:58%;color:var(--gold-2)}
+.leader-name{
+  margin:0;font-family:var(--font-head);font-weight:700;text-transform:uppercase;letter-spacing:.03em;
+  color:var(--navy);font-size:clamp(1.7rem,3vw,2.15rem);line-height:1.05}
+.leader-role{
+  margin:.4rem 0 0;font-family:var(--font-head);font-weight:500;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--gold-3);font-size:1.02rem}
+.leader-bio{margin:.85rem 0 0;font-style:italic;color:#5b6475;font-size:1.05rem}
+.back-about{display:inline-block;margin-top:1.3rem;color:var(--navy);font-weight:600}
+.back-about:hover,.back-about:focus-visible{color:var(--gold-3)}
 .events{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:10px}
 .events li{display:flex;gap:16px;background:#fff;border-radius:10px;padding:14px 18px;border-left:5px solid var(--navy)}
 .events time{font-family:var(--font-head);color:var(--gold-3);min-width:70px}
