@@ -10,7 +10,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
 </head>
 <body class="page-inner">
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -51,8 +50,11 @@
   <section class="panel">
     <div class="wrap">
 
-      <p class="placeholder">Placeholder — the pins and notes below are samples. Replace them in data/camping-trips.json.</p>
-      <div id="trip-map" class="trip-map" role="region" aria-label="Map of camping trips"></div>
+      <div class="trip-map">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1YyDGtmjNKldSg20YJcp_o8dm6sA" title="Troop 77 camping trips" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <p class="map-open"><a href="https://www.google.com/maps/d/viewer?mid=1YyDGtmjNKldSg20YJcp_o8dm6sA" rel="noopener" target="_blank">Open full map</a></p>
+      <p class="placeholder">Placeholder — the trip notes below are samples. Replace them in data/camping-trips.json.</p>
       <ul class="record-list" id="trip-list"></ul>
       <a class="back-about" href="about.html">Back to About</a>
 
@@ -65,7 +67,6 @@
   <p><a href="https://www.scouting.org/" rel="noopener" target="_blank">Scouting America</a></p>
 </footer>
 <script src="js/main.js" defer></script>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 <script src="js/camping-trips.js" defer></script>
 </body>
 </html>
