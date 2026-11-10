@@ -158,10 +158,17 @@ a{color:inherit}
 .panel.alt{background:#efe4cc}
 .wrap{width:min(1080px,100% - 40px);margin:0 auto}
 .placeholder{font-style:italic;color:#5b6475;max-width:65ch;font-size:1.05rem;line-height:1.55}
+.about-intro p{margin:0;max-width:68ch;font-size:1.08rem;line-height:1.6}
+.about-intro p+p{margin-top:.8em}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:22px}
+.cards.pair{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.statements{display:grid;gap:16px;margin-top:22px}
 .card{background:#fff;border-radius:12px;padding:18px 20px;border-top:4px solid var(--gold);box-shadow:0 2px 10px rgba(20,36,63,.08)}
 .card h2{margin:0 0 .3em;font-family:var(--font-head);color:var(--navy);text-transform:uppercase;letter-spacing:.03em;font-size:1.25rem}
-.card p{margin:0;color:#4a5263}
+.card p{margin:0;color:#4a5263;line-height:1.55}
+.card p+p{margin-top:.7em}
+.card a{color:var(--navy);font-weight:600}
+.card a:hover,.card a:focus-visible{color:var(--gold-3)}
 .events{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:10px}
 .events li{display:flex;gap:16px;background:#fff;border-radius:10px;padding:14px 18px;border-left:5px solid var(--navy)}
 .events time{font-family:var(--font-head);color:var(--gold-3);min-width:70px}
