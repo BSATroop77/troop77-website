@@ -9,12 +9,14 @@
     {
       "name": "Brian Pugliese",
       "date": "October 21, 2026",
-      "project": "8 picnic tables for GSUSA"
+      "project": "8 picnic tables for GSUSA",
+      "photo": "img/eagles/brian-pugliese.jpg"
     },
     {
       "name": "Brent Blankenship",
       "date": "October 21, 2026",
-      "project": "Drone station for PSCO"
+      "project": "Drone station for PSCO",
+      "photo": "img/eagles/brent-blankenship.jpg"
     },
     {
       "name": "Adam Alhassan",
@@ -47,10 +49,10 @@
       "photo": "img/eagles/ishaanth-ravichandran.jpg"
     },
     {
-      "name": "Chuck",
+      "name": "Chuck Santoli",
       "date": "December 18, 2024",
       "project": "Butterfly garden for Deer Park",
-      "todo": "TODO: last name unknown"
+      "photo": "img/eagles/chuck-santoli.jpg"
     },
     {
       "name": "Andreas Gerlach",

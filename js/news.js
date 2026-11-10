@@ -89,7 +89,7 @@
     .then((data) => {
       const posts = postsFrom(data);
       if (!posts.length) throw new Error("empty");
-      const latest = posts.slice().sort((a, b) => String(b.created_time || "").localeCompare(String(a.created_time || ""))).slice(0, 4);
+      const latest = posts.slice().sort((a, b) => String(b.created_time || "").localeCompare(String(a.created_time || ""))).slice(0, 6);
       feed.innerHTML = renderCards(latest);
     })
     .catch(() => {});

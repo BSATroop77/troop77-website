@@ -22,7 +22,7 @@ PAGE_NAME = "Scouting America Troop 77 NPR"
 PAGE_URL = "https://www.facebook.com/Troop77NPR"
 API_URL = (
     "https://graph.facebook.com/v21.0/"
-    f"{PAGE_ID}/posts?fields=id,message,created_time,permalink_url,full_picture&limit=4"
+    f"{PAGE_ID}/posts?fields=id,message,created_time,permalink_url,full_picture&limit=6"
 )
 ROOT = Path(__file__).resolve().parents[1]
 OUT_JSON = ROOT / "data" / "facebook.json"
