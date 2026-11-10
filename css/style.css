@@ -157,8 +157,8 @@ a{color:inherit}
 .panel{background:var(--cream);padding:clamp(36px,6vw,72px) 0 clamp(56px,8vw,96px)}
 .panel.alt{background:#efe4cc}
 .wrap{width:min(1080px,100% - 40px);margin:0 auto}
-.placeholder{font-style:italic;color:#5b6475;max-width:65ch;font-size:1.05rem;line-height:1.55}
-.about-intro p{margin:0;max-width:68ch;font-size:1.08rem;line-height:1.6}
+.placeholder{font-style:italic;color:#5b6475;font-size:1.05rem;line-height:1.55}
+.about-intro p{margin:0;font-size:1.08rem;line-height:1.6}
 .about-intro p+p{margin-top:.8em}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:22px}
 .cards.pair{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
