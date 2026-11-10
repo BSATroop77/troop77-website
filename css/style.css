@@ -175,7 +175,9 @@ a{color:inherit}
 .fb-embed iframe{display:block;width:100%;max-width:500px;height:800px;border:0;background:#fff;border-radius:8px}
 .fb-fallback{margin:12px 0 0;color:#5b6475;font-size:.92rem}
 .cards.news-cards{grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:22px}
-.cards.news-cards.older-cards{align-items:start}
+.cards.news-cards.older-cards{
+  align-items:start;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
 .news-photo{
   display:block;width:100%;height:220px;object-fit:cover;border-radius:12px;margin:0 0 12px;
   border:3px solid var(--gold);
