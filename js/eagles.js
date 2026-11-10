@@ -3,7 +3,7 @@
   const count = document.getElementById("eagle-count");
   if (!list) return;
 
-  const emblem = `<svg aria-hidden="true"><use href="#i-fleur"/></svg>`;
+  const silhouette = `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.2" fill="currentColor"/><path fill="currentColor" d="M5.2 19.2c.4-3.6 2.8-5.7 6.8-5.7s6.4 2.1 6.8 5.7c.1.7-.4 1.3-1.1 1.3H6.3c-.7 0-1.2-.6-1.1-1.3z"/></svg>`;
   const months = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
 
   function escapeHtml(value) {
@@ -77,8 +77,21 @@
         const name = escapeHtml(scout.name || "");
         const date = scout.date ? `<p class="eagle-date">${escapeHtml(scout.date)}</p>` : "";
         const project = scout.project ? `<p class="eagle-project">${projectHtml(scout.project, abbreviations)}</p>` : "";
-        return `<li class="eagle-card"><div class="eagle-mark">${emblem}</div><h2>${name}</h2>${date}${project}</li>`;
+        const photo = /^img\/eagles\/[^"]+\.(?:jpe?g|png|webp)$/i.test(scout.photo || "")
+          ? `<img src="${escapeHtml(scout.photo)}" alt="">`
+          : silhouette;
+        const page = scout.projectPage && scout.projectPage.slug
+          ? `<a class="eagle-more" href="eagles/${escapeHtml(scout.projectPage.slug)}.html">View Project</a>`
+          : "";
+        return `<li class="eagle-card"><div class="eagle-portrait">${photo}</div><h2>${name}</h2>${date}${project}${page}</li>`;
       }).join("");
+      list.querySelectorAll(".eagle-portrait img").forEach((img) => {
+        img.addEventListener("error", () => {
+          const frame = img.closest(".eagle-portrait");
+          img.remove();
+          frame.insertAdjacentHTML("beforeend", silhouette);
+        });
+      });
     })
     .catch(() => {
       list.innerHTML = "<li><p class=\"placeholder\">The Eagle Scout list could not be loaded.</p></li>";

@@ -90,77 +90,181 @@
     {
       "name": "Evan Knoop",
       "date": "June 9, 2021",
-      "project": "Fire Pit, Hope United Methodist Church, New Port Richey, Florida"
+      "project": "Fire Pit, Hope United Methodist Church, New Port Richey, Florida",
+      "photo": "img/eagles/evan-knoop.jpg"
     },
     {
       "name": "Demetrios Athanasoulis",
       "date": "May 21, 2021",
-      "project": "Shade Structure - St George Greek Orthodox Church, New Port Richey, Florida"
+      "project": "Shade Structure - St George Greek Orthodox Church, New Port Richey, Florida",
+      "photo": "img/eagles/demetrios-athanasoulis.jpg"
     },
     {
       "name": "Trenton Doherty",
       "date": "March 24, 2021",
-      "project": "Fishing Line Recycling, several locations, Pasco, Florida"
+      "project": "Fishing Line Recycling, several locations, Pasco, Florida",
+      "photo": "img/eagles/trenton-doherty.jpg",
+      "projectPage": {
+        "slug": "trenton-doherty",
+        "paragraphs": [
+          "Trenton Doherty's Eagle Project was to plan and install fishing line recycling receptacles in multiple locations across Pasco County."
+        ],
+        "photos": [
+          "img/eagles/trenton-doherty/01.jpg",
+          "img/eagles/trenton-doherty/02.jpg",
+          "img/eagles/trenton-doherty/03.jpg",
+          "img/eagles/trenton-doherty/04.jpg",
+          "img/eagles/trenton-doherty/05.jpg",
+          "img/eagles/trenton-doherty/06.jpg",
+          "img/eagles/trenton-doherty/07.jpg"
+        ]
+      }
     },
     {
       "name": "Geoff Dziena",
       "date": "January 2, 2021",
-      "project": "Umbrella Stands at the Energy & Marine Center. Port Richey, Florida"
+      "project": "Umbrella Stands at the Energy & Marine Center. Port Richey, Florida",
+      "photo": "img/eagles/geoff-dziena.jpg",
+      "projectPage": {
+        "slug": "geoff-dziena",
+        "paragraphs": [
+          "Geoff Dziena's Eagle Project was to plan and install umbrella stands at the Energy and Marine Center. Students visit the EMC throughout the year. There are work tables outside where they can touch and feel different items, but these stands have no shade. These new stands will allow the EMC to put out umbrellas when needed to keep the students out of the sun."
+        ],
+        "photos": [
+          "img/eagles/geoff-dziena/01.jpg",
+          "img/eagles/geoff-dziena/02.jpg",
+          "img/eagles/geoff-dziena/03.jpg"
+        ]
+      }
     },
     {
       "name": "Henry Koljeski",
       "date": "July 18, 2019",
-      "project": "Aquaponics Tank at the Energy & Marine Center. Port Richey, Florida"
+      "project": "Aquaponics Tank at the Energy & Marine Center. Port Richey, Florida",
+      "photo": "img/eagles/henry-koljeski.jpg",
+      "projectPage": {
+        "slug": "henry-koljeski",
+        "paragraphs": [
+          "Henry Koljeski's Eagle Project was to plan and install an aquaponics tank at the Energy Marine Center (EMC). This tank will help teach the thousands of students who visit the EMC every year how plants filter the water, the filtered water falls into the tank oxygenating it, and the fish waste fertilizes and is used by the plants to grow."
+        ],
+        "photos": [
+          "img/eagles/henry-koljeski/01.jpg",
+          "img/eagles/henry-koljeski/02.jpg",
+          "img/eagles/henry-koljeski/03.jpg"
+        ]
+      }
     },
     {
       "name": "Noah Ealy",
       "date": "May 24, 2019",
-      "project": "Educational Signage at the Energy & Marine Center. Port Richey, Florida"
+      "project": "Educational Signage at the Energy & Marine Center. Port Richey, Florida",
+      "photo": "img/eagles/noah-ealy.jpg",
+      "projectPage": {
+        "slug": "noah-ealy",
+        "paragraphs": [
+          "Noah Ealy's Eagle Project was to plan and install educational signage at the Energy Marine Center (EMC). These signs will allow the thousands of students who visit the EMC every year to easily and quickly be able to identify the wildlife they see."
+        ],
+        "photos": [
+          "img/eagles/noah-ealy/01.jpg",
+          "img/eagles/noah-ealy/02.jpg",
+          "img/eagles/noah-ealy/03.jpg"
+        ]
+      }
     },
     {
       "name": "Ben Covert",
       "date": "April 19, 2019",
-      "project": "Children's Garden for St. Thomas Aquinas Church, Port Richey, Florida"
+      "project": "Children's Garden for St. Thomas Aquinas Church, Port Richey, Florida",
+      "photo": "img/eagles/ben-covert.jpg",
+      "projectPage": {
+        "slug": "ben-covert",
+        "paragraphs": [
+          "Ben Covert's Eagle Project was a Children's Garden for St. Thomas Aquinas Church, New Port Richey, Florida."
+        ],
+        "photos": [
+          "img/eagles/ben-covert/01.jpg"
+        ]
+      }
     },
     {
       "name": "Ben McWhirter",
       "date": "February 21, 2019",
-      "project": "New Ceiling in the Fellowship Hall for Sharon United Methodist Church, Decatur, Illinois"
+      "project": "New Ceiling in the Fellowship Hall for Sharon United Methodist Church, Decatur, Illinois",
+      "photo": "img/eagles/ben-mcwhirter.jpg"
     },
     {
       "name": "James Sanderson",
       "date": "December 20, 2017",
-      "project": ""
+      "project": "",
+      "photo": "img/eagles/james-sanderson.jpg"
     },
     {
       "name": "Jared Bell",
       "date": "July 11, 2017",
-      "project": ""
+      "project": "",
+      "photo": "img/eagles/jared-bell.jpg"
     },
     {
       "name": "Atef Alhassan",
       "date": "April 10, 2017",
-      "project": ""
+      "project": "",
+      "photo": "img/eagles/atef-alhassan.jpg"
     },
     {
       "name": "Ian Tannenbaum",
       "date": "July 11, 2016",
-      "project": ""
+      "project": "",
+      "photo": "img/eagles/ian-tannenbaum.jpg"
     },
     {
       "name": "Joshua Adkins",
       "date": "July 11, 2016",
-      "project": "Equip Shriners vans with Windows tablets so children can watch movies, listen to music or play games on their rides to and from the hospital."
+      "project": "Equip Shriners vans with Windows tablets so children can watch movies, listen to music or play games on their rides to and from the hospital.",
+      "photo": "img/eagles/joshua-adkins.jpg",
+      "projectPage": {
+        "slug": "joshua-adkins",
+        "paragraphs": [
+          "Equip Shriners vans with Windows tablets so children can watch movies, listen to music or play games on their rides to and from the hospital."
+        ],
+        "links": [
+          {
+            "title": "Shriners Hospital - Facebook",
+            "url": "https://www.facebook.com/ShrinersHospitalsforChildren/posts/10153622188628203"
+          },
+          {
+            "title": "Pasco Schools",
+            "url": "https://www.pasco.k12.fl.us/mobile/news/gulf_high_eagle_scout_candidate_aims_to_help_young_shriners_patients"
+          },
+          {
+            "title": "Chillicothe Gazette",
+            "url": "https://www.chillicothegazette.com/story/news/local/2015/08/13/teen-helps-get-tablets-placed--shriners-vans--kids/31645115/"
+          },
+          {
+            "title": "CE Outlook",
+            "url": "https://www.ceoutlook.com/2015/08/14/tunes-n-tint-donates-to-shriners/"
+          },
+          {
+            "title": "TampaBay.com",
+            "url": "https://www.tampabay.com/news/humaninterest/hometown-pasco-for-sept-4/2243868"
+          },
+          {
+            "title": "CE Outlook",
+            "url": "https://www.ceoutlook.com/2014/11/24/tunes-n-tint-and-12-volters-help-shriners/"
+          }
+        ]
+      }
     },
     {
       "name": "Joey Mitchell",
       "date": "June 10, 2016",
-      "project": ""
+      "project": "",
+      "photo": "img/eagles/joey-mitchell.jpg"
     },
     {
       "name": "Connor Beckman",
       "date": "January 11, 2016",
-      "project": ""
+      "project": "",
+      "photo": "img/eagles/connor-beckman.jpg"
     },
     {
       "name": "David Torgerson",
@@ -205,17 +309,46 @@
     {
       "name": "Alexander Bolduc",
       "date": "May 9, 2011",
-      "project": "Covered Picnic Bench at Starkey Park"
+      "project": "Covered Picnic Bench at Starkey Park",
+      "projectPage": {
+        "slug": "alexander-bolduc",
+        "paragraphs": [
+          "Alex Bolduc's Eagle Project was a covered picnic bench at Starkey Park that was completed in April 2011."
+        ],
+        "photos": [
+          "img/eagles/alexander-bolduc/01.jpg",
+          "img/eagles/alexander-bolduc/02.jpg"
+        ]
+      }
     },
     {
       "name": "Jack Vann",
       "date": "",
-      "project": "Barbecue Grill Station at Trinity Presbyterian Church of Seven Springs"
+      "project": "Barbecue Grill Station at Trinity Presbyterian Church of Seven Springs",
+      "projectPage": {
+        "slug": "jack-vann",
+        "paragraphs": [
+          "Jack Vann's Eagle Project was a barbecue grill station that was completed in February of 2011. This project will benefit the Trinity Presbyterian Church of Seven Springs and the different worship and youth groups that are associated with the church. This barbecue grill will provide an area for the church members to cook food such as hot dogs and hamburgers for different events that are held throughout the year. With the implementation of this project, it will eliminate the need for a parishioner to transport his or her own personal grill to and from these events. It will also eliminate the need for a storage shelter for a propane grill if someone donated one. Its location will also provide easy access for the cooks and workers in the kitchen of the Founder's Hall. The estimated cost of this project is $1,800."
+        ],
+        "photos": [
+          "img/eagles/jack-vann/01.jpg",
+          "img/eagles/jack-vann/02.jpg"
+        ]
+      }
     },
     {
       "name": "Brian Martin",
       "date": "December 13, 2010",
-      "project": "Meditation garden at Trinity Presbyterian Church of Seven Springs"
+      "project": "Meditation garden at Trinity Presbyterian Church of Seven Springs",
+      "projectPage": {
+        "slug": "brian-martin",
+        "paragraphs": [
+          "Brian Martin's Eagle Project was a meditation garden that was completed in August of 2010 at the Trinity Presbyterian Church of Seven Springs."
+        ],
+        "photos": [
+          "img/eagles/brian-martin/01.jpg"
+        ]
+      }
     },
     {
       "name": "Carl Unkle",
@@ -230,17 +363,44 @@
     {
       "name": "Jason Brown",
       "date": "December 8, 2008",
-      "project": "Plan and install new playground equipment, along with a new fence around the playground, and 100 cubic yards of playground mulch to benefit the Children's Ministry of Trinity Presbyterian Church of Seven Springs"
+      "project": "Plan and install new playground equipment, along with a new fence around the playground, and 100 cubic yards of playground mulch to benefit the Children's Ministry of Trinity Presbyterian Church of Seven Springs",
+      "projectPage": {
+        "slug": "jason-brown",
+        "paragraphs": [
+          "Jason Brown's Eagle Project was to plan and install new playground equipment, along with a new fence around the playground, and 100 cubic yards of playground mulch to benefit the Children's Ministry of the church at an approximate cost of $11,000. It is envisioned that future Eagle Projects can add additional playground equipment to build a wonderful playground for the children of the church."
+        ],
+        "photos": [
+          "img/eagles/jason-brown/01.jpg"
+        ]
+      }
     },
     {
       "name": "Thomas Motley",
       "date": "October 13, 2008",
-      "project": "Plan and install an outdoor volleyball court to benefit the Teen Ministry of Trinity Presbyterian Church of Seven Springs"
+      "project": "Plan and install an outdoor volleyball court to benefit the Teen Ministry of Trinity Presbyterian Church of Seven Springs",
+      "projectPage": {
+        "slug": "thomas-motley",
+        "paragraphs": [
+          "Tommy Motley's Eagle Project was to plan and install an outdoor volleyball court to benefit the Teen Ministry of the church at an approximate cost of $1,000."
+        ],
+        "photos": [
+          "img/eagles/thomas-motley/01.jpg"
+        ]
+      }
     },
     {
       "name": "Jeffrey Motley",
       "date": "October 13, 2008",
-      "project": "Plan and install a \"Walk of Faith\" Memorial Brick Pathway for the Trinity Presbyterian Church of Seven Springs"
+      "project": "Plan and install a \"Walk of Faith\" Memorial Brick Pathway for the Trinity Presbyterian Church of Seven Springs",
+      "projectPage": {
+        "slug": "jeffrey-motley",
+        "paragraphs": [
+          "Jeffrey Motley's Eagle Project was to plan and install a \"Walk of Faith\" Memorial Brick Pathway for the Trinity Presbyterian Church of Seven Springs at an approximate cost of $3,000. This project will provide a permanent memorial for church members, as well as serve as an on-going, long-term fundraising opportunity for the church, to include future Eagle Projects."
+        ],
+        "photos": [
+          "img/eagles/jeffrey-motley/01.jpg"
+        ]
+      }
     }
   ]
 }
