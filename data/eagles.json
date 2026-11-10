@@ -70,7 +70,9 @@
     {
       "name": "Dylan Greenwald",
       "date": "March 30, 2023",
-      "project": "Monarch butterfly waypoint at Hospice"
+      "project": "Monarch butterfly waypoint at Hospice",
+      "photo": "img/eagles/dylan-greenwald.jpg",
+      "focus": {"x": 50, "y": 28}
     },
     {
       "name": "Jake Noel",
@@ -92,7 +94,9 @@
     {
       "name": "Cooper Burden",
       "date": "June 6, 2022",
-      "project": "Repainted part of church"
+      "project": "Repainted part of church",
+      "photo": "img/eagles/cooper-burden.jpg",
+      "focus": {"x": 50, "y": 24}
     },
     {
       "name": "Yanni Tsiabasis",
