@@ -1,5 +1,5 @@
 (() => {
-  if (!document.querySelector(".join-fab")) {
+  if (document.body.classList.contains("page-home") && !document.querySelector(".join-fab")) {
     const prefix = /\/leaders\//.test(location.pathname) ? "../" : "";
     const link = document.createElement("a");
     link.className = "join-fab";

@@ -300,7 +300,7 @@ a{color:inherit}
   .cal-desk{display:none}
   .cal-agenda{display:block}
 }
-.site-footer{background:var(--navy-3);color:#cfd6e4;text-align:center;padding:28px 16px calc(108px + env(safe-area-inset-bottom,0px));font-size:.95rem}
+.site-footer{background:var(--navy-3);color:#cfd6e4;text-align:center;padding:28px 16px 36px;font-size:.95rem}
 .site-footer p{margin:.35em 0}
 .site-footer a{color:var(--gold-2);font-weight:600}
 .site-footer a:hover,.site-footer a:focus-visible{color:#fff}
