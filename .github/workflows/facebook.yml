@@ -1,0 +1,56 @@
+# Refresh data/facebook.json and hosted post photos from the Graph API.
+# A push made with GITHUB_TOKEN does not start the Pages workflow, so this
+# workflow calls that deploy itself after updating the data.
+name: Update Facebook news
+
+on:
+  schedule:
+    - cron: "30 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: facebook-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Require page token
+        env:
+          FACEBOOK_PAGE_TOKEN: ${{ secrets.FACEBOOK_PAGE_TOKEN }}
+        run: |
+          if [ -z "$FACEBOOK_PAGE_TOKEN" ]; then
+            echo "FACEBOOK_PAGE_TOKEN is not set. Existing news files were left unchanged." >&2
+            exit 1
+          fi
+      - name: Fetch latest posts
+        env:
+          FACEBOOK_PAGE_TOKEN: ${{ secrets.FACEBOOK_PAGE_TOKEN }}
+        run: python3 scripts/build-facebook.py
+      - name: Commit news data if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/facebook.json img/news
+          if git diff --cached --quiet; then
+            echo "No news changes."
+          else
+            git commit -m "Update Facebook news posts"
+            git push
+          fi
+
+  deploy:
+    needs: update
+    uses: ./.github/workflows/pages.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
