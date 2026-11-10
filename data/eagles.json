@@ -19,22 +19,26 @@
     {
       "name": "Adam Alhassan",
       "date": "August 31, 2026",
-      "project": "2 benches for TPCOSS"
+      "project": "2 benches for TPCOSS",
+      "photo": "img/eagles/adam-alhassan.jpg"
     },
     {
       "name": "Chase O'Brien",
       "date": "December 17, 2025",
-      "project": "Dog play area for SPCA"
+      "project": "Dog play area for SPCA",
+      "photo": "img/eagles/chase-obrien.jpg"
     },
     {
       "name": "Liam Dunning",
       "date": "July 16, 2025",
-      "project": "K-Tech shade structure"
+      "project": "K-Tech shade structure",
+      "photo": "img/eagles/liam-dunning.jpg"
     },
     {
       "name": "Christopher Johnson",
       "date": "July 16, 2025",
-      "project": "Seating area at an elementary school"
+      "project": "Seating area at an elementary school",
+      "photo": "img/eagles/christopher-johnson.jpg"
     },
     {
       "name": "Ishaanth Ravichandran",
@@ -61,7 +65,8 @@
     {
       "name": "Nick Clohessy",
       "date": "August 17, 2023",
-      "project": "Cemetery refurbishment"
+      "project": "Cemetery refurbishment",
+      "photo": "img/eagles/nick-clohessy.jpg"
     },
     {
       "name": "Thompson Borree",
