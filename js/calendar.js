@@ -169,21 +169,44 @@
       return { dates, segments, lanes: Math.max(lanes.length, 1) };
     });
 
-    const desk = weeks.map(({ dates, segments, lanes }) => {
-      const days = dates.map((iso) => {
-        if (!iso) return `<div class="cal-day is-out" style="grid-row:1 / span ${lanes + 1}"></div>`;
-        const dayNum = Number(iso.slice(-2));
-        return `<div class="cal-day${iso === today ? " is-today" : ""}" style="grid-row:1 / span ${lanes + 1}"><span class="cal-num">${dayNum}</span></div>`;
+    const desk = weeks.map(({ dates, segments }) => {
+      const multi = [];
+      const singles = dates.map(() => []);
+      segments.forEach((segment) => {
+        if (coveredDays(segment.event).length > 1) multi.push(segment);
+        else singles[segment.startCol].push(segment);
+      });
+      const multiLanes = [];
+      multi.forEach((segment) => {
+        let lane = multiLanes.findIndex((row) => row.every((other) => segment.endCol < other.startCol || segment.startCol > other.endCol));
+        if (lane < 0) {
+          lane = multiLanes.length;
+          multiLanes.push([]);
+        }
+        multiLanes[lane].push(segment);
+        segment.lane = lane;
+      });
+      const chipRows = singles.reduce((max, list) => Math.max(max, list.length), 0);
+      const days = dates.map((iso, index) => {
+        if (!iso) return `<div class="cal-day is-out"></div>`;
+        const chips = singles[index].map((segment) => {
+          const map = segment.event.location
+            ? `<a class="cal-loc" href="${mapsUrl(segment.event.location)}" rel="noopener" target="_blank">Map</a>`
+            : "";
+          return `<div class="cal-chip${isQuiet(segment.event) ? " is-quiet" : ""}"><span>${escapeHtml(segment.event.title)}</span>${map}</div>`;
+        }).join("");
+        return `<div class="cal-day${iso === today ? " is-today" : ""}"><span class="cal-num">${Number(iso.slice(-2))}</span>${chips}</div>`;
       }).join("");
-      const bars = segments.map((segment) => {
+      const bars = multi.map((segment) => {
+        const span = segment.endCol - segment.startCol + 1;
         const label = spanLabel(segment.event) || whenText(segment.event);
         const loc = segment.event.location ? ` · ${segment.event.location}` : "";
         const map = segment.isStart && segment.event.location
           ? `<a class="cal-loc" href="${mapsUrl(segment.event.location)}" rel="noopener" target="_blank">Map</a>`
           : "";
-        return `<div class="cal-bar${segment.isStart ? " is-start" : ""}${segment.isEnd ? " is-end" : ""}${isQuiet(segment.event) ? " is-quiet" : ""}" style="grid-column:${segment.startCol + 1} / ${segment.endCol + 2};grid-row:${segment.lane + 2}" title="${escapeHtml(label + loc)}"><span>${escapeHtml(segment.event.title)}</span>${map}</div>`;
+        return `<div class="cal-bar${segment.isStart ? " is-start" : ""}${segment.isEnd ? " is-end" : ""}${isQuiet(segment.event) ? " is-quiet" : ""}" style="grid-column:${segment.startCol + 1} / span ${span};grid-row:${segment.lane + 1}" title="${escapeHtml(label + loc)}"><span>${escapeHtml(segment.event.title)}</span>${map}</div>`;
       }).join("");
-      return `<div class="cal-week">${days}${bars}</div>`;
+      return `<div class="cal-week" style="--chips:${chipRows};--lanes:${Math.max(multiLanes.length, 0)}"><div class="cal-days">${days}</div><div class="cal-lanes">${bars}</div></div>`;
     }).join("");
 
     const byDay = new Map();
