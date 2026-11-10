@@ -170,13 +170,21 @@ a{color:inherit}
 .card a{color:var(--navy);font-weight:600}
 .card a:hover,.card a:focus-visible{color:var(--gold-3)}
 .leader{max-width:40rem}
-.leader-photo{
-  width:148px;height:148px;margin:2px 0 18px;border-radius:50%;
-  border:4px solid var(--gold);
-  background:radial-gradient(circle at 50% 32%,var(--navy-2),var(--navy) 62%,var(--navy-3));
-  display:grid;place-items:center;
-  box-shadow:0 4px 14px rgba(20,36,63,.28)}
-.leader-photo svg{width:58%;height:58%;color:var(--gold-2)}
+.leader-frame{
+  width:220px;height:220px;margin:2px 0 18px;border-radius:50%;
+  border:3px solid var(--gold);
+  background:radial-gradient(circle at 50% 35%,var(--navy-2),var(--navy) 60%,var(--navy-3));
+  display:grid;overflow:hidden;position:relative;
+  box-shadow:0 0 0 2px var(--navy-3),0 4px 10px rgba(0,0,0,.5),inset 0 2px 3px rgba(255,255,255,.12)}
+.leader-frame::after{
+  content:"";position:absolute;inset:0;border-radius:50%;pointer-events:none;
+  box-shadow:inset 0 2px 3px rgba(255,255,255,.12)}
+.leader-frame picture,.leader-frame img{width:100%;height:100%;display:block}
+.leader-frame img{object-fit:cover;object-position:center 30%}
+.leader-frame svg{width:58%;height:58%;margin:auto;color:var(--gold-2)}
+@media (max-width:899px){
+  .leader-frame{width:170px;height:170px}
+}
 .leader-name{
   margin:0;font-family:var(--font-head);font-weight:700;text-transform:uppercase;letter-spacing:.03em;
   color:var(--navy);font-size:clamp(1.7rem,3vw,2.15rem);line-height:1.05}
