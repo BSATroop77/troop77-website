@@ -40,8 +40,7 @@
       "name": "Ishaanth Ravichandran",
       "date": "April 16, 2025",
       "project": "Search and rescue boxes for PSCO",
-      "photo": "img/eagles/ishaanth-ravichandran.jpg",
-      "focus": {"x": 50, "y": 28}
+      "photo": "img/eagles/ishaanth-ravichandran.jpg"
     },
     {
       "name": "Chuck",
@@ -68,50 +67,43 @@
       "name": "Thompson Borree",
       "date": "July 19, 2023",
       "project": "Monarch butterfly waypoint",
-      "photo": "img/eagles/thompson-borree.jpg",
-      "focus": {"x": 50, "y": 26}
+      "photo": "img/eagles/thompson-borree.jpg"
     },
     {
       "name": "Dylan Greenwald",
       "date": "March 30, 2023",
       "project": "Monarch butterfly waypoint at Hospice",
-      "photo": "img/eagles/dylan-greenwald.jpg",
-      "focus": {"x": 50, "y": 28}
+      "photo": "img/eagles/dylan-greenwald.jpg"
     },
     {
       "name": "Jake Noel",
       "date": "March 30, 2023",
       "project": "Water garden / fountain at SSES",
-      "photo": "img/eagles/jake-noel.jpg",
-      "focus": {"x": 50, "y": 24}
+      "photo": "img/eagles/jake-noel.jpg"
     },
     {
       "name": "Jackson Davis",
       "date": "December 14, 2022",
       "project": "Mobile food pantry",
-      "photo": "img/eagles/jackson-davis.jpg",
-      "focus": {"x": 50, "y": 25}
+      "photo": "img/eagles/jackson-davis.jpg"
     },
     {
       "name": "Zachary Taylor",
       "date": "August 10, 2022",
       "project": "Garden area at school",
-      "photo": "img/eagles/zachary-taylor.jpg",
-      "focus": {"x": 50, "y": 26}
+      "photo": "img/eagles/zachary-taylor.jpg"
     },
     {
       "name": "Cooper Burden",
       "date": "June 6, 2022",
       "project": "Repainted part of church",
-      "photo": "img/eagles/cooper-burden.jpg",
-      "focus": {"x": 50, "y": 24}
+      "photo": "img/eagles/cooper-burden.jpg"
     },
     {
       "name": "Yanni Tsiabasis",
       "date": "January 20, 2022",
       "project": "Sign/Banner holders for K-Tech. New Port Richey, Florida",
-      "photo": "img/eagles/yanni-tsiabasis.jpg",
-      "focus": {"x": 55, "y": 35}
+      "photo": "img/eagles/yanni-tsiabasis.jpg"
     },
     {
       "name": "Evan Knoop",
@@ -130,7 +122,6 @@
       "date": "March 24, 2021",
       "project": "Fishing Line Recycling, several locations, Pasco, Florida",
       "photo": "img/eagles/trenton-doherty.jpg",
-      "focus": {"x": 50, "y": 25},
       "projectPage": {
         "slug": "trenton-doherty",
         "paragraphs": [
