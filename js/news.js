@@ -13,8 +13,40 @@
     return Array.isArray(posts) ? posts : [];
   }
 
-  function renderCards(posts) {
-    return `<div class="cards news-cards">${posts.map(renderPost).join("")}</div>`;
+  function renderCards(posts, extraClass) {
+    const cls = extraClass ? "cards news-cards " + extraClass : "cards news-cards";
+    return `<div class="${cls}">${posts.map(renderPost).join("")}</div>`;
+  }
+
+  function linkify(message) {
+    const re = /https?:\/\/[^\s<>"']+/gi;
+    const text = String(message);
+    let out = "";
+    let last = 0;
+    for (const match of text.matchAll(re)) {
+      out += escapeHtml(text.slice(last, match.index));
+      let url = match[0];
+      let trail = "";
+      while (url && /[.,;:!?]$/.test(url)) {
+        trail = url.slice(-1) + trail;
+        url = url.slice(0, -1);
+      }
+      const opens = (url.match(/\(/g) || []).length;
+      let closes = (url.match(/\)/g) || []).length;
+      while (url.endsWith(")") && closes > opens) {
+        trail = ")" + trail;
+        url = url.slice(0, -1);
+        closes -= 1;
+      }
+      if (url) {
+        const safe = escapeHtml(url);
+        out += `<a href="${safe}" rel="noopener" target="_blank">${safe}</a>${escapeHtml(trail)}`;
+      } else {
+        out += escapeHtml(match[0]);
+      }
+      last = match.index + match[0].length;
+    }
+    return out + escapeHtml(text.slice(last));
   }
 
   function renderPost(post) {
@@ -26,7 +58,7 @@
     const photo = post.full_picture
       ? `<img class="news-photo" src="${escapeHtml(post.full_picture)}" alt="">`
       : "";
-    const text = post.message ? `<p class="news-text">${escapeHtml(post.message)}</p>` : "";
+    const text = post.message ? `<p class="news-text">${linkify(post.message)}</p>` : "";
     const link = post.permalink_url
       ? `<a href="${escapeHtml(post.permalink_url)}" rel="noopener" target="_blank">View on Facebook</a>`
       : "";
@@ -73,7 +105,7 @@
       .then((data) => {
         const posts = postsFrom(data);
         if (!posts.length) return;
-        olderFeed.innerHTML = renderCards(posts);
+        olderFeed.innerHTML = renderCards(posts, "older-cards");
         older.hidden = false;
       })
       .catch(() => {});
