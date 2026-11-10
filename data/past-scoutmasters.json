@@ -2,9 +2,9 @@
   "scoutmasters": [
     {"name": "Gene Snyder", "title": "Current Scoutmaster", "years": "8/2025–Present", "image": "img/scoutmasters/gene-snyder.jpg", "face": "face-lower"},
     {"name": "Mike Ferraz", "years": "6/2023–8/2025", "image": "img/scoutmasters/mike-ferraz.jpg", "face": "face-center"},
-    {"name": "Dave Davis", "years": "9/2021–6/2023", "image": "img/scoutmasters/dave-davis.jpg"},
+    {"name": "Dave Davis", "years": "9/2021–6/2023", "image": "img/leaders/dave-davis.jpg"},
     {"name": "Mike Noel", "years": "9/2020–9/2021", "image": "img/scoutmasters/mike-noel.jpg"},
-    {"name": "Dave Davis", "years": "9/2017–9/2020", "image": "img/scoutmasters/dave-davis.jpg"},
+    {"name": "Dave Davis", "years": "9/2017–9/2020", "image": "img/leaders/dave-davis.jpg"},
     {"name": "Mike Bell", "years": "6/2015–6/2017", "image": "img/scoutmasters/mike-bell.jpg"},
     {"name": "Brian Washburn", "years": "6/2012–6/2015", "image": "img/scoutmasters/brian-washburn.jpg"},
     {"name": "George Martin", "years": "6/2008–6/2012", "image": "img/scoutmasters/george-martin.jpg"},
