@@ -77,20 +77,47 @@
         const name = escapeHtml(scout.name || "");
         const date = scout.date ? `<p class="eagle-date">${escapeHtml(scout.date)}</p>` : "";
         const project = scout.project ? `<p class="eagle-project">${projectHtml(scout.project, abbreviations)}</p>` : "";
+        const focus = scout.focus && Number.isFinite(Number(scout.focus.x)) && Number.isFinite(Number(scout.focus.y))
+          ? ` data-focus-x="${escapeHtml(scout.focus.x)}" data-focus-y="${escapeHtml(scout.focus.y)}"`
+          : "";
         const photo = /^img\/eagles\/[^"]+\.(?:jpe?g|png|webp)$/i.test(scout.photo || "")
-          ? `<img src="${escapeHtml(scout.photo)}" alt="">`
+          ? `<img src="${escapeHtml(scout.photo)}" alt="${name}"${focus}>`
           : silhouette;
         const page = scout.projectPage && scout.projectPage.slug
           ? `<a class="eagle-more" href="eagles/${escapeHtml(scout.projectPage.slug)}.html">View Project</a>`
           : "";
         return `<li class="eagle-card"><div class="eagle-portrait">${photo}</div><h2>${name}</h2>${date}${project}${page}</li>`;
       }).join("");
+      function centerFace(img) {
+        const fx = Number(img.dataset.focusX);
+        const fy = Number(img.dataset.focusY);
+        const iw = img.naturalWidth;
+        const ih = img.naturalHeight;
+        const frame = img.closest(".eagle-portrait");
+        if (!frame || !iw || !ih || !Number.isFinite(fx) || !Number.isFinite(fy)) return;
+        const faceX = (fx > 1 ? fx / 100 : fx) * iw;
+        const faceY = (fy > 1 ? fy / 100 : fy) * ih;
+        const side = 2 * Math.min(faceX, faceY, iw - faceX, ih - faceY);
+        const cw = frame.clientWidth;
+        const ch = frame.clientHeight;
+        if (side < 8 || !cw || !ch) return;
+        const scale = Math.max(cw, ch) / side;
+        img.classList.add("is-focused");
+        img.style.width = `${iw * scale}px`;
+        img.style.height = `${ih * scale}px`;
+        img.style.left = `${cw / 2 - faceX * scale}px`;
+        img.style.top = `${ch / 2 - faceY * scale}px`;
+      }
       list.querySelectorAll(".eagle-portrait img").forEach((img) => {
         img.addEventListener("error", () => {
           const frame = img.closest(".eagle-portrait");
           img.remove();
           frame.insertAdjacentHTML("beforeend", silhouette);
         });
+        if (img.dataset.focusX) {
+          if (img.complete) centerFace(img);
+          else img.addEventListener("load", () => centerFace(img));
+        }
       });
     })
     .catch(() => {
