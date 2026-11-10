@@ -1,0 +1,7 @@
+{
+  "trips": [
+    {"date": "Month 20xx", "place": "Placeholder campsite", "lat": 28.274, "lng": -82.717, "notes": "Placeholder — replace with a real trip."},
+    {"date": "Month 20xx", "place": "Placeholder camp", "lat": 28.55, "lng": -82.39, "notes": "Placeholder — replace with a real trip."},
+    {"date": "Month 20xx", "place": "Placeholder outpost", "lat": 29.19, "lng": -82.14, "notes": "Placeholder — replace with a real trip."}
+  ]
+}
