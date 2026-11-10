@@ -39,7 +39,9 @@
     {
       "name": "Ishaanth Ravichandran",
       "date": "April 16, 2025",
-      "project": "Search and rescue boxes for PSCO"
+      "project": "Search and rescue boxes for PSCO",
+      "photo": "img/eagles/ishaanth-ravichandran.jpg",
+      "focus": {"x": 50, "y": 28}
     },
     {
       "name": "Chuck",
@@ -65,7 +67,9 @@
     {
       "name": "Thompson Borree",
       "date": "July 19, 2023",
-      "project": "Monarch butterfly waypoint"
+      "project": "Monarch butterfly waypoint",
+      "photo": "img/eagles/thompson-borree.jpg",
+      "focus": {"x": 50, "y": 26}
     },
     {
       "name": "Dylan Greenwald",
