@@ -1,11 +1,7 @@
 {
-  "tbd": [
-    {"name": "Gene Snyder", "field": "years", "value": "TBD–Present"},
-    {"name": "Mike Ferraz", "field": "years", "value": "6/2023–TBD"}
-  ],
   "scoutmasters": [
-    {"name": "Gene Snyder", "title": "Current Scoutmaster", "years": "TBD–Present", "tbd": true, "image": "img/scoutmasters/gene-snyder.jpg", "face": "face-lower"},
-    {"name": "Mike Ferraz", "years": "6/2023–TBD", "tbd": true, "image": "img/scoutmasters/mike-ferraz.jpg", "face": "face-center"},
+    {"name": "Gene Snyder", "title": "Current Scoutmaster", "years": "8/2025–Present", "image": "img/scoutmasters/gene-snyder.jpg", "face": "face-lower"},
+    {"name": "Mike Ferraz", "years": "6/2023–8/2025", "image": "img/scoutmasters/mike-ferraz.jpg", "face": "face-center"},
     {"name": "Dave Davis", "years": "9/2021–6/2023", "image": "img/scoutmasters/dave-davis.jpg"},
     {"name": "Mike Noel", "years": "9/2020–9/2021", "image": "img/scoutmasters/mike-noel.jpg"},
     {"name": "Dave Davis", "years": "9/2017–9/2020", "image": "img/scoutmasters/dave-davis.jpg"},
