@@ -16,7 +16,22 @@
       "name": "Brent Blankenship",
       "date": "October 21, 2026",
       "project": "Drone station for PSCO",
-      "photo": "img/eagles/brent-blankenship.jpg"
+      "photo": "img/eagles/brent-blankenship.jpg",
+      "projectPage": {
+        "slug": "brent-blankenship",
+        "paragraphs": [
+          "Brent Blankenship's Eagle Project was a drone station for PSCO."
+        ],
+        "photos": [
+          "img/eagles/brent-blankenship/01.jpg",
+          "img/eagles/brent-blankenship/02.jpg",
+          "img/eagles/brent-blankenship/03.jpg",
+          "img/eagles/brent-blankenship/04.jpg",
+          "img/eagles/brent-blankenship/05.jpg",
+          "img/eagles/brent-blankenship/06.jpg",
+          "img/eagles/brent-blankenship/07.jpg"
+        ]
+      }
     },
     {
       "name": "Adam Alhassan",
