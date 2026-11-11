@@ -61,7 +61,51 @@
       "name": "Ishaanth Ravichandran",
       "date": "April 16, 2025",
       "project": "Search and rescue boxes for PSCO",
-      "photo": "img/eagles/ishaanth-ravichandran.jpg"
+      "photo": "img/eagles/ishaanth-ravichandran.jpg",
+      "projectPage": {
+        "slug": "ishaanth-ravichandran",
+        "paragraphs": [
+          "Ishaanth Ravichandran of Troop 77 spent more than a year building wooden training boxes for the Pasco Sheriff's Office K-9 Unit, replacing aging plastic boxes that had deteriorated in Florida weather. The new boxes are designed to help K-9s track live human scent during search and rescue missions or when pursuing suspects.",
+          "Deana Hudgins, K-9 training manager with the Pasco County Sheriff's Office, said the boxes conceal a subject so the dogs have to use their noses rather than their eyes. The completed boxes support training for the more than 55 dogs in the unit and were dedicated to the Pasco Sheriff's Office K-9 Unit."
+        ],
+        "video": "XdIuXlkKRJ8",
+        "photos": [
+          "img/eagles/ishaanth-ravichandran/01.jpg",
+          "img/eagles/ishaanth-ravichandran/02.jpg",
+          "img/eagles/ishaanth-ravichandran/03.jpg",
+          "img/eagles/ishaanth-ravichandran/04.jpg",
+          "img/eagles/ishaanth-ravichandran/05.jpg",
+          "img/eagles/ishaanth-ravichandran/06.jpg",
+          "img/eagles/ishaanth-ravichandran/07.jpg",
+          "img/eagles/ishaanth-ravichandran/08.jpg",
+          "img/eagles/ishaanth-ravichandran/09.jpg",
+          "img/eagles/ishaanth-ravichandran/10.jpg",
+          "img/eagles/ishaanth-ravichandran/11.jpg"
+        ],
+        "linksTitle": "In the News",
+        "links": [
+          {
+            "title": "Eagle Scout's project aims to help Pasco County Sheriff's K-9s track missing people, Greater Tampa Bay Area Council",
+            "url": "https://tampabayscouting.org/2025/eagle-scouts-project-aims-to-help-pasco-county-sheriffs-k-9s-track-missing-people/99113"
+          },
+          {
+            "title": "Eagle Scout's project aims to help Pasco County Sheriff's K-9s track missing people, Tampa Bay 28",
+            "url": "https://www.tampabay28.com/news/region-pasco/eagle-scouts-project-aims-to-help-pasco-county-sheriffs-k9s-track-missing-people"
+          },
+          {
+            "title": "Pasco Eagle Scout Builds Wooden Training Boxes For K-9 Search And Rescue Dogs, The Pasco Herald",
+            "url": "https://news.pascoflorida.org/pasco-eagle-scout-builds-wooden-training-boxes-for-k-9-search-and-rescue-dogs/"
+          },
+          {
+            "title": "Eagle Scout project will help with K9 training at Pasco County Sheriff's Office, Tampa Bay 28",
+            "url": "https://www.tampabay28.com/news/region-pasco/eagle-scout-project-will-help-with-k9-training-at-pasco-county-sheriffs-office"
+          },
+          {
+            "title": "Tampa Bay kids create community change through service, Tampa Bay 28",
+            "url": "https://www.tampabay28.com/news/local-news/young-volunteers-address-community-needs-through-creative-service-projects-across-tampa-bay"
+          }
+        ]
+      }
     },
     {
       "name": "Chuck Santoli",

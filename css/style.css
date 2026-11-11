@@ -344,6 +344,8 @@ a{color:inherit}
   margin:1.3rem 0 0;font-family:var(--font-head);font-weight:700;text-transform:uppercase;
   letter-spacing:.03em;color:var(--navy);font-size:1.15rem}
 .eagle-story .eagle-date{margin:0}
+.eagle-video{position:relative;width:100%;aspect-ratio:16/9;margin-top:16px;border-radius:12px;overflow:hidden;border:3px solid var(--gold);background:#000}
+.eagle-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .eagle-photos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}
 .eagle-photos img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;object-position:50% 35%;border-radius:12px;border:3px solid var(--gold)}
 .eagle-photos.is-portrait img{aspect-ratio:3/4;object-position:50% 50%}
