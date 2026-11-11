@@ -1,70 +1,17 @@
 {
   "links": [
-    {
-      "title": "SunCoast District",
-      "url": "https://tampabayscouting.org/districts/suncoast-district"
-    },
-    {
-      "title": "Florida Trail Association",
-      "url": "https://www.floridatrail.org/"
-    },
-    {
-      "title": "Trinity Presbyterian Church of Seven Springs",
-      "url": "http://tpcoss.org/"
-    },
-    {
-      "title": "Order of the Arrow",
-      "url": "http://uhtoyehhuttee.org/"
-    },
-    {
-      "title": "Troop 177 - New Port Richey, FL",
-      "url": "https://www.troopwebhost.org/Troop177Trinity/",
-      "description": "Troops"
-    },
-    {
-      "title": "Troop 8 - New Port Richey, FL",
-      "url": "https://www.troopwebhost.org/Troop8NEWPORTRICHEY/",
-      "description": "Troops"
-    },
-    {
-      "title": "Troop 40 - Hudson, FL",
-      "url": "https://www.facebook.com/BoyScoutTroop40",
-      "description": "Troops"
-    },
-    {
-      "title": "Troop 68 - Odessa",
-      "url": "https://www.troopwebhost.org/Troop68Odessa/",
-      "description": "Troops"
-    },
-    {
-      "title": "Troop 149 - Wesley Chapel",
-      "url": "https://www.troopwebhost.org/Troop149Lutz/",
-      "description": "Troops"
-    },
-    {
-      "title": "Troop 2 - Wesley Chapel",
-      "url": "https://www.troopwebhost.org/Troop2WesleyChapel/",
-      "description": "Troops"
-    },
-    {
-      "title": "Troop 33 - Land O Lakes",
-      "url": "https://www.troopwebhost.org/Troop33LandOLakes/",
-      "description": "Troops"
-    },
-    {
-      "title": "Troop 707 - Land O Lakes",
-      "url": "https://www.troopwebhost.org/Troop707LandOLakes/",
-      "description": "Troops"
-    },
-    {
-      "title": "Pack 7 - Trinity, FL",
-      "url": "https://www.facebook.com/groups/330718650439653/",
-      "description": "Packs"
-    },
-    {
-      "title": "Pack 86 - Hudson, FL",
-      "url": "https://www.facebook.com/pack86hudson/",
-      "description": "Packs"
-    }
+    { "title": "GTBAC (Greater Tampa Bay Area Council)", "url": "https://tampabayscouting.org/", "description": "Scouting" },
+    { "title": "SunCoast District", "url": "https://tampabayscouting.org/districts/suncoast-district", "description": "Scouting" },
+    { "title": "Trinity Presbyterian Church of Seven Springs", "url": "http://tpcoss.org/", "description": "Scouting" },
+    { "title": "Order of the Arrow", "url": "http://uhtoyehhuttee.org/", "description": "Scouting" },
+    { "title": "Troop 7", "url": "http://www.thetroop7.com/", "description": "Troops" },
+    { "title": "Troop 177 - New Port Richey, FL", "url": "https://www.troopwebhost.org/Troop177Trinity/", "description": "Troops" },
+    { "title": "Troop 15", "url": "https://fumcnpr.com/girl-troop-15/", "description": "Troops" },
+    { "title": "Troop 40 - Hudson, FL", "url": "https://www.facebook.com/BoyScoutTroop40", "description": "Troops" },
+    { "title": "Troop 68 - Odessa", "url": "https://www.troopwebhost.org/Troop68Odessa/", "description": "Troops" },
+    { "title": "Troop 707 - Land O Lakes", "url": "https://www.troopwebhost.org/Troop707LandOLakes/", "description": "Troops" },
+    { "title": "Troop 33 - Land O Lakes", "url": "https://www.troopwebhost.org/Troop33LandOLakes/", "description": "Troops" },
+    { "title": "Pack 7", "url": "http://www.thegreatpack7.com/", "description": "Packs" },
+    { "title": "Pack 86 - Hudson, FL", "url": "https://www.facebook.com/pack86hudson/", "description": "Packs" }
   ]
 }

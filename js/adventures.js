@@ -16,8 +16,11 @@
     const description = item.description
       ? `<p class="adventure-desc">${escapeHtml(item.description)}</p>`
       : "";
+    const focus = /^[\d.]+% [\d.]+%$/.test(String(item.focus || ""))
+      ? ` style="object-position:${item.focus}"`
+      : "";
     const photo = image
-      ? `<img alt="" src="${image}">`
+      ? `<img alt="" src="${image}"${focus}>`
       : "";
     return `<article class="card adventure-card"><div class="adventure-frame">${photo}${mark}<h2 class="adventure-name">${name}</h2></div>${description}</article>`;
   }

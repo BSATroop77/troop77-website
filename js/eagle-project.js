@@ -31,7 +31,7 @@
         `<li><a href="${escapeHtml(link.url)}" rel="noopener" target="_blank">${escapeHtml(link.title || link.url)}</a></li>`
       )).join("");
       root.innerHTML = `${date}${paragraphs}`
-        + (photos ? `<div class="eagle-photos">${photos}</div>` : "")
+        + (photos ? `<div class="eagle-photos${page.photoShape === "portrait" ? " is-portrait" : ""}">${photos}</div>` : "")
         + (links ? `<h2>More</h2><ul class="eagle-links">${links}</ul>` : "");
     })
     .catch(() => {

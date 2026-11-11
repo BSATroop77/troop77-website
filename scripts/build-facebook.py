@@ -122,7 +122,7 @@ def build(posts: list[dict], image_dir: Path) -> dict:
     return {
         "updated": datetime.now(NY).isoformat(timespec="seconds"),
         "page": {"id": PAGE_ID, "name": PAGE_NAME, "url": PAGE_URL},
-        "posts": normalized[:4],
+        "posts": normalized[:6],
     }
 
 

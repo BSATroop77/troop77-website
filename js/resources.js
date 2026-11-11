@@ -16,7 +16,18 @@
     .then((data) => {
       const links = Array.isArray(data) ? data : (data && data.links) || [];
       list.classList.toggle("is-dense", links.length > 12);
+      const dividers = list.hasAttribute("data-group-dividers");
+      let lastGroup = null;
       list.innerHTML = links.map((item) => {
+        const group = item.description || "";
+        const divider = dividers && lastGroup !== null && group !== lastGroup
+          ? `<li class="resource-divider" aria-hidden="true"></li>`
+          : "";
+        lastGroup = group;
+        return divider + renderLink(item);
+      }).join("");
+
+      function renderLink(item) {
         const titleText = item.title || "";
         const descriptionText = item.description || "";
         const title = escapeHtml(titleText);
@@ -28,7 +39,7 @@
           return `<li><a class="resource-card" href="${href}" rel="noopener" target="_blank" title="${full}"><h2>${title}</h2>${description}</a></li>`;
         }
         return `<li><div class="resource-card is-pending" title="${full}"><h2>${title}</h2>${description}</div></li>`;
-      }).join("");
+      }
     })
     .catch(() => {
       list.innerHTML = "<li><p class=\"placeholder\">These resources could not be loaded.</p></li>";

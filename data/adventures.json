@@ -21,8 +21,20 @@
       "image": "img/adventures/motorboating.jpg"
     },
     {
+      "name": "Water Skiing",
+      "image": "img/adventures/water-skiing.jpg"
+    },
+    {
+      "name": "Wakeboarding",
+      "image": "img/adventures/wakeboarding.jpg"
+    },
+    {
       "name": "Skiing & Snow Sports",
       "image": "img/adventures/skiing-snow-sports.jpg"
+    },
+    {
+      "name": "Ice Skating",
+      "image": "img/adventures/ice-skating.jpg"
     },
     {
       "name": "Rocketry",
@@ -50,7 +62,8 @@
     },
     {
       "name": "Small-Boat Sailing",
-      "image": "img/adventures/small-boat-sailing.jpg"
+      "image": "img/adventures/small-boat-sailing.jpg",
+      "focus": "50% 100%"
     },
     {
       "name": "Swimming",
@@ -73,8 +86,22 @@
       "image": "img/adventures/shotgun-shooting.jpg"
     },
     {
+      "name": "Axe Throwing",
+      "image": "img/adventures/axe-throwing.jpg"
+    },
+    {
       "name": "Climbing",
-      "image": "img/adventures/climbing.jpg"
+      "image": "img/adventures/climbing.jpg",
+      "focus": "50% 38%"
+    },
+    {
+      "name": "Rappelling",
+      "image": "img/adventures/rappelling.jpg",
+      "focus": "50% 30%"
+    },
+    {
+      "name": "Zip Lining",
+      "image": "img/adventures/zip-lining.jpg"
     },
     {
       "name": "Cycling",
@@ -87,6 +114,10 @@
     {
       "name": "Horsemanship",
       "image": "img/adventures/horsemanship.jpg"
+    },
+    {
+      "name": "ATV Riding",
+      "image": "img/adventures/atv-riding.jpg"
     },
     {
       "name": "Snorkeling",
@@ -103,6 +134,14 @@
     {
       "name": "History",
       "image": "img/adventures/history.jpg"
+    },
+    {
+      "name": "Fossil Hunting",
+      "image": "img/adventures/fossil-hunting.jpg"
+    },
+    {
+      "name": "Flag Retirement Ceremony",
+      "image": "img/adventures/flag-retirement-ceremony.jpg"
     },
     {
       "name": "Surf",
