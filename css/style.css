@@ -813,10 +813,3 @@ a.resource-card:hover,a.resource-card:focus-visible{border-top-color:var(--gold-
   .tilt-btn span{
     position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);clip-path:inset(50%);white-space:nowrap}
 }
-/* Desktop home: show visitor count on the opening screen (bottom-left) */
-@media (min-width:900px){
-  .page-home .visitor-count{
-    position:absolute;z-index:40;left:18px;top:calc(100svh - 50px);margin:0;
-    padding:6px 12px;border-radius:999px;background:rgba(20,36,63,.78);
-    border:2px solid var(--gold);box-shadow:0 2px 8px rgba(0,0,0,.35)}
-}
