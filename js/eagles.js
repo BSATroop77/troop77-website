@@ -86,7 +86,12 @@
         const page = scout.projectPage && scout.projectPage.slug
           ? `<a class="eagle-more" href="eagles/${escapeHtml(scout.projectPage.slug)}.html">View Project</a>`
           : "";
-        return `<li class="eagle-card"><div class="eagle-portrait">${photo}</div><h2>${name}</h2>${date}${project}${page}</li>`;
+        const award = scout.award && /^img\/eagles\/[^"]+\.(?:jpe?g|png|webp)$/i.test(scout.award.image || "")
+          ? `<img class="eagle-award" src="${escapeHtml(scout.award.image)}" alt="${escapeHtml(scout.award.alt || "Award")}">`
+          : "";
+        const awardNote = scout.award && scout.award.note ? `<p class="eagle-award-note">${escapeHtml(scout.award.note)}</p>` : "";
+        const head = award ? `<div class="eagle-head"><div class="eagle-portrait">${photo}</div>${award}</div>` : `<div class="eagle-portrait">${photo}</div>`;
+        return `<li class="eagle-card">${head}<h2>${name}</h2>${date}${project}${awardNote}${page}</li>`;
       }).join("");
       function centerFace(img) {
         const fx = Number(img.dataset.focusX);
