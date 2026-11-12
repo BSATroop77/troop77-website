@@ -9,8 +9,26 @@
     {
       "name": "Brian Pugliese",
       "date": "October 21, 2026",
-      "project": "8 picnic tables for GSUSA",
-      "photo": "img/eagles/brian-pugliese.jpg"
+      "project": "9 picnic tables and table repairs for Girl Scout Camp Indian Echo",
+      "photo": "img/eagles/brian-pugliese.jpg",
+      "projectPage": {
+        "slug": "brian-pugliese",
+        "paragraphs": [
+          "Brian Pugliese built nine new picnic tables and repaired several existing ones for Camp Indian Echo, the Girl Scouts of West Central Florida camp in Hudson. The new tables give campers and troops plenty of sturdy seating around the pavilion for meals, programs, and gatherings.",
+          "Brian organized his team to unpack the table kits, lay out the parts, and work in crews to assemble the legs, tops, and benches, then fastened and checked every table before moving it into place. By the end of the day, nine new tables were lined up beside the pavilion, ready for Girl Scouts to enjoy."
+        ],
+        "photos": [
+          "img/eagles/brian-pugliese/01.jpg",
+          "img/eagles/brian-pugliese/02.jpg",
+          "img/eagles/brian-pugliese/03.jpg",
+          "img/eagles/brian-pugliese/04.jpg",
+          "img/eagles/brian-pugliese/05.jpg",
+          "img/eagles/brian-pugliese/06.jpg",
+          "img/eagles/brian-pugliese/07.jpg",
+          "img/eagles/brian-pugliese/08.jpg",
+          "img/eagles/brian-pugliese/09.jpg"
+        ]
+      }
     },
     {
       "name": "Brent Blankenship",
