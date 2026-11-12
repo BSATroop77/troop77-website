@@ -490,8 +490,26 @@
     {
       "name": "Atef Alhassan",
       "date": "April 10, 2017",
-      "project": "",
-      "photo": "img/eagles/atef-alhassan.jpg"
+      "project": "Outdoor pavilion for Masjid Al-Salaam, Dunedin, Florida",
+      "photo": "img/eagles/atef-alhassan.jpg",
+      "projectPage": {
+        "slug": "atef-alhassan",
+        "paragraphs": [
+          "Atef Alhassan managed the location, layout, and construction of a large new outdoor pavilion at Masjid Al-Salaam, the Islamic Society of North Pinellas mosque in Dunedin. The covered steel structure gives the community a shaded place to gather outdoors for meals, events, and celebrations.",
+          "Atef started by choosing the site and measuring out the layout on the paver patio with his team. On build day, a telehandler lifted the steel trusses into place while Atef and the crew bolted the posts and base rails together, and the metal roof panels went on top. Finished with wooden serving tables and fresh mulch, the pavilion now seats dozens of guests in the shade."
+        ],
+        "photos": [
+          "img/eagles/atef-alhassan/01.jpg",
+          "img/eagles/atef-alhassan/02.jpg",
+          "img/eagles/atef-alhassan/03.jpg",
+          "img/eagles/atef-alhassan/04.jpg",
+          "img/eagles/atef-alhassan/05.jpg",
+          "img/eagles/atef-alhassan/06.jpg",
+          "img/eagles/atef-alhassan/07.jpg",
+          "img/eagles/atef-alhassan/08.jpg",
+          "img/eagles/atef-alhassan/09.jpg"
+        ]
+      }
     },
     {
       "name": "Ian Tannenbaum",
