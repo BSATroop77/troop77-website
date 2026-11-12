@@ -253,6 +253,38 @@
       "year": "2022",
       "trips": [
         {
+          "month": "January",
+          "place": "Snow Sports Trip",
+          "location": "North Carolina"
+        },
+        {
+          "month": "February",
+          "place": "Wall Springs Park / Tarpon Springs Aquarium",
+          "location": "Tarpon Springs, FL",
+          "url": "https://www.pinellascounty.org/park/21_Wall_Springs.htm"
+        },
+        {
+          "month": "March",
+          "place": "Starkey Park",
+          "location": "Trinity, FL",
+          "url": "http://www.swfwmd.state.fl.us/recreation/areas/starkey-park.html"
+        },
+        {
+          "month": "April",
+          "place": "Sunwest"
+        },
+        {
+          "month": "May",
+          "place": "Fort Clinch",
+          "location": "Amelia Island, FL"
+        },
+        {
+          "month": "June",
+          "place": "Summer Camp - Camp Daniel Boone",
+          "location": "Canton, NC",
+          "url": "https://www.campdanielboone.org"
+        },
+        {
           "month": "September",
           "place": "Weeki Wachee River",
           "location": "Weeki Wachee, FL",
@@ -276,11 +308,59 @@
     },
     {
       "year": "2021",
-      "tbd": true,
       "trips": [
         {
-          "month": "",
-          "place": "Trips to be added"
+          "month": "January",
+          "place": "Florida Caverns State Park",
+          "location": "Marianna, FL",
+          "url": "https://www.floridastateparks.org/park/Florida-Caverns"
+        },
+        {
+          "month": "February",
+          "place": "Suwannee River"
+        },
+        {
+          "month": "March",
+          "place": "Sand Hill",
+          "location": "Brooksville, FL",
+          "url": "http://www.sandhillscoutreservation.com"
+        },
+        {
+          "month": "April",
+          "place": "Patrick AFB",
+          "location": "Brevard County, FL",
+          "url": "https://www.patrick.af.mil"
+        },
+        {
+          "month": "May",
+          "place": "Lake Louisa / Aquatica"
+        },
+        {
+          "month": "June",
+          "place": "Summer Camp - Camp Woodruff",
+          "location": "Georgia"
+        },
+        {
+          "month": "September",
+          "place": "Sand Hill",
+          "location": "Brooksville, FL",
+          "url": "http://www.sandhillscoutreservation.com"
+        },
+        {
+          "month": "October",
+          "place": "Weeki Wachee River",
+          "location": "Weeki Wachee, FL",
+          "url": "https://weekiwachee.com"
+        },
+        {
+          "month": "November",
+          "place": "Alafia Trail"
+        },
+        {
+          "month": "December",
+          "place": "Camporee - Flaming Arrow Scout Reservation",
+          "location": "Lake Wales, FL",
+          "url": "https://tampabayscouting.org/camps/flaming-arrow-scout-reservation"
         }
       ]
     },
@@ -320,6 +400,28 @@
           "month": "June",
           "place": "Washington DC",
           "cancelled": true
+        },
+        {
+          "month": "September",
+          "place": "Weeki Wachee River",
+          "location": "Weeki Wachee, FL",
+          "url": "https://weekiwachee.com"
+        },
+        {
+          "month": "October",
+          "place": "Beaumont Ranch",
+          "location": "Land O Lakes, FL",
+          "url": "https://www.beaumontranch.net"
+        },
+        {
+          "month": "November",
+          "place": "Santos Trailhead",
+          "location": "Ocala, FL",
+          "url": "https://www.floridastateparks.org/parks-and-trails/santos-trailhead-campground"
+        },
+        {
+          "month": "December",
+          "place": "Werner-Boyce Salt Springs"
         }
       ]
     },
