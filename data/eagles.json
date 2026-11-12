@@ -121,7 +121,23 @@
     {
       "name": "Blake Borree",
       "date": "February 28, 2024",
-      "project": "Bat houses in the neighborhood"
+      "project": "Bat houses in the Trinity Oaks neighborhood",
+      "projectPage": {
+        "slug": "blake-borree",
+        "paragraphs": [
+          "Blake Borree installed bat houses around the ponds and wooded edges of his Trinity Oaks neighborhood in Trinity, Florida. A single bat can eat thousands of mosquitoes and other insects in a night, so giving local bats a safe place to roost helps the whole neighborhood while supporting Florida's native wildlife.",
+          "Blake and his team assembled each bat house onto a tall wooden post, dug deep post holes, and set the posts in fast-setting concrete so the houses stand high and steady near the water and trees where bats like to feed."
+        ],
+        "photos": [
+          "img/eagles/blake-borree/01.jpg",
+          "img/eagles/blake-borree/02.jpg",
+          "img/eagles/blake-borree/03.jpg",
+          "img/eagles/blake-borree/04.jpg",
+          "img/eagles/blake-borree/05.jpg",
+          "img/eagles/blake-borree/06.jpg",
+          "img/eagles/blake-borree/07.jpg"
+        ]
+      }
     },
     {
       "name": "Nick Clohessy",
