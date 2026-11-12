@@ -314,7 +314,26 @@
       "name": "Yanni Tsiabasis",
       "date": "January 20, 2022",
       "project": "Sign/Banner holders for K-Tech. New Port Richey, Florida",
-      "photo": "img/eagles/yanni-tsiabasis.jpg"
+      "photo": "img/eagles/yanni-tsiabasis.jpg",
+      "projectPage": {
+        "slug": "yanni-tsiabasis",
+        "paragraphs": [
+          "Yanni Tsiabasis built a set of sturdy, freestanding banner stands for K-Tech, the Wendell Krinn Technical High School in New Port Richey. The school uses banners to promote its programs at events and around campus, and Yanni's stands give it a reusable, portable way to put them on display.",
+          "Yanni started by briefing his team and walking through the design, then the Scouts measured and cut lengths of PVC pipe, glued the frames together with fittings, and test-fit each stand to make sure it stood straight and level. Once every frame was assembled, the team gave them a finish coat of spray paint so they would look sharp at school events."
+        ],
+        "photos": [
+          "img/eagles/yanni-tsiabasis/01.jpg",
+          "img/eagles/yanni-tsiabasis/02.jpg",
+          "img/eagles/yanni-tsiabasis/03.jpg",
+          "img/eagles/yanni-tsiabasis/04.jpg",
+          "img/eagles/yanni-tsiabasis/05.jpg",
+          "img/eagles/yanni-tsiabasis/06.jpg",
+          "img/eagles/yanni-tsiabasis/07.jpg",
+          "img/eagles/yanni-tsiabasis/08.jpg",
+          "img/eagles/yanni-tsiabasis/09.jpg",
+          "img/eagles/yanni-tsiabasis/10.jpg"
+        ]
+      }
     },
     {
       "name": "Evan Knoop",
