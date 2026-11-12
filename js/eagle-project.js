@@ -60,11 +60,15 @@
       const photos = (page.photos || []).map((src) => (
         `<img src="../${escapeHtml(src)}" alt="">`
       )).join("");
+      const photosBefore = (page.photosBefore || []).map((src) => (
+        `<img src="../${escapeHtml(src)}" alt="">`
+      )).join("");
       const links = (page.links || []).filter((link) => /^https?:\/\//i.test(link.url || "")).map((link) => (
         `<li><a href="${escapeHtml(link.url)}" rel="noopener" target="_blank">${escapeHtml(link.title || link.url)}</a></li>`
       )).join("");
       const linksTitle = page.linksTitle || "More";
       root.innerHTML = `${date}${paragraphs}`
+        + (photosBefore ? `<div class="eagle-photos">${photosBefore}</div>` : "")
         + videoHtml(page.video)
         + (photos ? `<div class="eagle-photos${page.photoShape === "portrait" ? " is-portrait" : ""}">${photos}</div>` : "")
         + (links ? `<h2>${escapeHtml(linksTitle)}</h2><ul class="eagle-links">${links}</ul>` : "");

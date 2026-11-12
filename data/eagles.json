@@ -170,7 +170,22 @@
             "start": 5
           }
         ],
-        "photos": [],
+        "photos": [
+          "img/eagles/jackson-davis/05.jpg",
+          "img/eagles/jackson-davis/06.jpg",
+          "img/eagles/jackson-davis/07.jpg",
+          "img/eagles/jackson-davis/08.jpg",
+          "img/eagles/jackson-davis/09.jpg",
+          "img/eagles/jackson-davis/10.jpg",
+          "img/eagles/jackson-davis/11.jpg",
+          "img/eagles/jackson-davis/12.jpg",
+          "img/eagles/jackson-davis/13.jpg",
+          "img/eagles/jackson-davis/14.jpg",
+          "img/eagles/jackson-davis/15.jpg",
+          "img/eagles/jackson-davis/16.jpg",
+          "img/eagles/jackson-davis/17.jpg",
+          "img/eagles/jackson-davis/18.jpg"
+        ],
         "linksTitle": "In the News",
         "links": [
           {
@@ -217,6 +232,12 @@
             "title": "Work day photos on Facebook, Nov 2021 – July 2022",
             "url": "https://www.facebook.com/Troop77NPR/posts/nov-2021-through-july-2022-jackson-davis-eagle-project-work-days-04-20-21-presen/122116090845206093/"
           }
+        ],
+        "photosBefore": [
+          "img/eagles/jackson-davis/01.jpg",
+          "img/eagles/jackson-davis/02.jpg",
+          "img/eagles/jackson-davis/03.jpg",
+          "img/eagles/jackson-davis/04.jpg"
         ]
       },
       "award": {
