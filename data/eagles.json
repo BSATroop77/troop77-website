@@ -151,7 +151,74 @@
       "name": "Jackson Davis",
       "date": "December 14, 2022",
       "project": "Mobile food pantry",
-      "photo": "img/eagles/jackson-davis.jpg"
+      "photo": "img/eagles/jackson-davis.jpg",
+      "projectPage": {
+        "slug": "jackson-davis",
+        "paragraphs": [
+          "Jackson Davis of Troop 77 turned a 2005 school bus into a mobile food pantry for Messengers of Hope Mission, which had been delivering food in volunteers' personal cars. Over two years he raised $16,000 and led 44 volunteers through 450 hours of work: removing seats, building shelves, installing coolers and an awning, and getting the bus ready to serve. When the project was complete, he donated the pantry to Messengers of Hope.",
+          "The bus now brings food to families in Pasco and Pinellas counties, including low-income families and people experiencing homelessness. Jackson has said it has been able to serve thousands of people.",
+          "In 2023, Jackson received the Glenn A. and Melinda W. Adams National Eagle Scout Service Project of the Year Award. In March 2024, Rep. Gus Bilirakis of Florida recognized the project in the Congressional Record."
+        ],
+        "video": [
+          {
+            "id": "6XC_n_8tlxE",
+            "title": "WQYK, July 2022"
+          },
+          {
+            "id": "bygzx3ZPuOQ",
+            "title": "Scouting Magazine, July 2023",
+            "start": 5
+          }
+        ],
+        "photos": [],
+        "linksTitle": "In the News",
+        "links": [
+          {
+            "title": "Project Facebook Page",
+            "url": "https://www.facebook.com/JacksonDavisEagle/"
+          },
+          {
+            "title": "ABC Action News, July 2022: Pasco County teen converts school bus into mobile food pantry",
+            "url": "https://www.tampabay28.com/news/region-pasco/pasco-county-teen-converts-school-bus-into-mobile-food-pantry"
+          },
+          {
+            "title": "WQYK, July 2022 (video)",
+            "url": "https://www.youtube.com/watch?v=6XC_n_8tlxE"
+          },
+          {
+            "title": "Suncoast News, Aug 2022",
+            "url": "https://www.suncoastnews.com/news/eagle-scout-project-turns-school-bus-into-mobile-food-pantry/article_ca8fee92-24a2-11ed-88f6-cf7623f72684.html"
+          },
+          {
+            "title": "ABC Action News, Feb 2023: Odessa eagle scout gives back with mobile food pantry",
+            "url": "https://www.tampabay28.com/news/region-pasco/odessa-eagle-scout-gives-back-with-mobile-food-pantry"
+          },
+          {
+            "title": "Greater Tampa Bay Area Council, May 2023: NESA Eagle Scout Service Project of the Year",
+            "url": "https://tampabayscouting.org/2023/scout-jackson-d-of-troop-77-suncoast-district-has-just-been-awarded-the-prestigious-nesa-eagle-scout-service-project-of-the-year/84561"
+          },
+          {
+            "title": "Aaron on Scouting, July 2023: 2023 Eagle Scout Project of the Year",
+            "url": "https://blog.scoutingmagazine.org/2023/07/26/2023-eagle-scout-project-of-the-year-he-transformed-a-school-bus-into-a-mobile-food-pantry/"
+          },
+          {
+            "title": "Scouting Magazine, July 2023 (video)",
+            "url": "https://www.youtube.com/watch?v=bygzx3ZPuOQ"
+          },
+          {
+            "title": "Congressional Record, March 2024: Recognizing Jackson Davis",
+            "url": "https://www.govinfo.gov/content/pkg/CREC-2024-03-29/html/CREC-2024-03-29-pt1-PgE294-3.htm"
+          },
+          {
+            "title": "ABC Action News, April 2024: Mobile pantry created by teen helping feed families",
+            "url": "https://www.tampabay28.com/news/region-pasco/mobile-pantry-created-by-teen-helping-feed-families"
+          },
+          {
+            "title": "Work day photos on Facebook, Nov 2021 – July 2022",
+            "url": "https://www.facebook.com/Troop77NPR/posts/nov-2021-through-july-2022-jackson-davis-eagle-project-work-days-04-20-21-presen/122116090845206093/"
+          }
+        ]
+      }
     },
     {
       "name": "Zachary Taylor",
