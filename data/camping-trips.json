@@ -2,51 +2,275 @@
   "years": [
     {
       "year": "2026",
-      "tbd": true,
       "trips": [
         {
-          "month": "",
-          "place": "Trips to be added"
+          "month": "January",
+          "place": "Flaming Arrow Scout Reservation",
+          "location": "Lake Wales, FL",
+          "url": "https://tampabayscouting.org/camps/flaming-arrow-scout-reservation"
+        },
+        {
+          "month": "February",
+          "place": "Maggie Valley / Camp Old Indian"
+        },
+        {
+          "month": "February",
+          "place": "Webelos Camp with Pack 7"
+        },
+        {
+          "month": "March",
+          "place": "Crossover Camp with Pack 7 - Camp Soule"
+        },
+        {
+          "month": "March",
+          "place": "K-Tech"
+        },
+        {
+          "month": "April",
+          "place": "Sun West"
+        },
+        {
+          "month": "May",
+          "place": "Anclote Key",
+          "location": "Tarpon Springs, FL",
+          "url": "https://www.floridastateparks.org/parks-and-trails/anclote-key-preserve-state-park"
+        },
+        {
+          "month": "June",
+          "place": "Summer Camp - Camp Daniel Boone",
+          "location": "Canton, NC",
+          "url": "https://www.campdanielboone.org"
+        },
+        {
+          "month": "July",
+          "place": "National Jamboree - Summit Bechtel"
+        },
+        {
+          "month": "August",
+          "place": "Camp Brorein",
+          "location": "Odessa, FL",
+          "url": "https://tampabayscouting.org/camps/camp-owen-j-brorein"
+        },
+        {
+          "month": "September",
+          "place": "Manatee Springs"
+        },
+        {
+          "month": "October",
+          "place": "Hidden Lakes"
+        },
+        {
+          "month": "October",
+          "place": "Webelos Camp with Pack 7 - Starkey Park"
+        },
+        {
+          "month": "November",
+          "place": "Alafia River State Park"
+        },
+        {
+          "month": "December",
+          "place": "Sand Hill",
+          "location": "Brooksville, FL",
+          "url": "http://www.sandhillscoutreservation.com"
         }
       ]
     },
     {
       "year": "2025",
-      "tbd": true,
       "trips": [
         {
-          "month": "",
-          "place": "Trips to be added"
+          "month": "January",
+          "place": "Santos Trailhead",
+          "location": "Ocala, FL",
+          "url": "https://www.floridastateparks.org/parks-and-trails/santos-trailhead-campground"
+        },
+        {
+          "month": "February",
+          "place": "Webelos Camp with Pack 7 - Camp Brorein"
+        },
+        {
+          "month": "February",
+          "place": "Florida Caverns State Park",
+          "location": "Marianna, FL",
+          "url": "https://www.floridastateparks.org/park/Florida-Caverns"
+        },
+        {
+          "month": "March",
+          "place": "K-Tech"
+        },
+        {
+          "month": "April",
+          "place": "Sun N Fun Flyin",
+          "location": "Lakeland, FL",
+          "url": "http://www.flysnf.org/rv-tent-camping"
+        },
+        {
+          "month": "May",
+          "place": "Aquatica"
+        },
+        {
+          "month": "June",
+          "place": "Summer Camp - Camp Woodruff",
+          "location": "North Georgia"
+        },
+        {
+          "month": "September",
+          "place": "Weeki Wachee River",
+          "location": "Weeki Wachee, FL",
+          "url": "https://weekiwachee.com"
+        },
+        {
+          "month": "October",
+          "place": "St Augustine"
+        },
+        {
+          "month": "October",
+          "place": "Webelos Camp with Pack 7"
+        },
+        {
+          "month": "November",
+          "place": "Suwannee River"
+        },
+        {
+          "month": "December",
+          "place": "Backpacking Trip"
         }
       ]
     },
     {
       "year": "2024",
-      "tbd": true,
       "trips": [
         {
-          "month": "",
-          "place": "Trips to be added"
+          "month": "January",
+          "place": "USS Yorktown"
+        },
+        {
+          "month": "February",
+          "place": "Camp Brorein",
+          "location": "Odessa, FL",
+          "url": "https://tampabayscouting.org/camps/camp-owen-j-brorein"
+        },
+        {
+          "month": "March",
+          "place": "Peace River"
+        },
+        {
+          "month": "April",
+          "place": "Anclote Island",
+          "location": "Tarpon Springs, FL",
+          "url": "https://www.floridastateparks.org/parks-and-trails/anclote-key-preserve-state-park"
+        },
+        {
+          "month": "May",
+          "place": "Patrick AFB / NASA",
+          "location": "Brevard County, FL",
+          "url": "https://www.patrick.af.mil"
+        },
+        {
+          "month": "June",
+          "place": "Summer Camp - Raven Knob"
+        },
+        {
+          "month": "August",
+          "place": "Bioluminescent Kayaking"
+        },
+        {
+          "month": "October",
+          "place": "Webelos Camp with Pack 7 - Tree Hoppers"
+        },
+        {
+          "month": "October",
+          "place": "Sand Hill",
+          "location": "Brooksville, FL",
+          "url": "http://www.sandhillscoutreservation.com"
+        },
+        {
+          "month": "November",
+          "place": "Flaming Arrow Scout Reservation",
+          "location": "Lake Wales, FL",
+          "url": "https://tampabayscouting.org/camps/flaming-arrow-scout-reservation"
+        },
+        {
+          "month": "December",
+          "place": "Kiddie Up Ranch"
         }
       ]
     },
     {
       "year": "2023",
-      "tbd": true,
       "trips": [
         {
-          "month": "",
-          "place": "Trips to be added"
+          "month": "January",
+          "place": "Lake Trafford"
+        },
+        {
+          "month": "February",
+          "place": "K-Tech"
+        },
+        {
+          "month": "March",
+          "place": "Sand Hill",
+          "location": "Brooksville, FL",
+          "url": "http://www.sandhillscoutreservation.com"
+        },
+        {
+          "month": "April",
+          "place": "Santos Trailhead",
+          "location": "Ocala, FL",
+          "url": "https://www.floridastateparks.org/parks-and-trails/santos-trailhead-campground"
+        },
+        {
+          "month": "May",
+          "place": "Rainbow River"
+        },
+        {
+          "month": "June",
+          "place": "Summer Camp - Rainey Mountain",
+          "location": "Clayton, GA",
+          "url": "http://nega-bsa.org/camps/rainey-mountain"
+        },
+        {
+          "month": "September",
+          "place": "Sunwest"
+        },
+        {
+          "month": "October",
+          "place": "Weeki Wachee River",
+          "location": "Weeki Wachee, FL",
+          "url": "https://weekiwachee.com"
+        },
+        {
+          "month": "November",
+          "place": "Hernando Airport"
+        },
+        {
+          "month": "December",
+          "place": "Backpacking Trip"
         }
       ]
     },
     {
       "year": "2022",
-      "tbd": true,
       "trips": [
         {
-          "month": "",
-          "place": "Trips to be added"
+          "month": "September",
+          "place": "Weeki Wachee River",
+          "location": "Weeki Wachee, FL",
+          "url": "https://weekiwachee.com"
+        },
+        {
+          "month": "October",
+          "place": "Anclote Island",
+          "location": "Tarpon Springs, FL",
+          "url": "https://www.floridastateparks.org/parks-and-trails/anclote-key-preserve-state-park"
+        },
+        {
+          "month": "November",
+          "place": "Lake Louisa / Typhoon Lagoon"
+        },
+        {
+          "month": "December",
+          "place": "Mutual Mine - Backpacking"
         }
       ]
     },
