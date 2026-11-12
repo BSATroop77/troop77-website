@@ -833,3 +833,11 @@ a.resource-card:hover,a.resource-card:focus-visible{border-top-color:var(--gold-
 @media (max-width:899px){
   .page-home .welcome{padding:.7rem .8rem}
 }
+/* Phone portrait: center logo over the welcome panel */
+@media (max-width:899px) and (orientation:portrait){
+  .page-home .title-block{left:168px;right:12px;margin-inline:auto}
+}
+/* Phone landscape: Join button lower */
+@media (orientation:landscape) and (max-height:500px){
+  .page-home .join-fab{bottom:calc(env(safe-area-inset-bottom,0px) + 14px)}
+}
