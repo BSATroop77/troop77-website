@@ -607,7 +607,20 @@
     {
       "name": "Zachary Fecanin",
       "date": "February 10, 2014",
-      "project": ""
+      "project": "Paver area in front of Trinity Presbyterian Church",
+      "projectPage": {
+        "slug": "zachary-fecanin",
+        "paragraphs": [
+          "Zachary Fecanin built a new paver area in front of Trinity Presbyterian Church, turning a landscaped bed beside the main entrance into an attractive, usable space for the congregation and visitors.",
+          "Zachary and his team staked and flagged the layout, then cleared and dug out the area with shovels and post-hole diggers to prepare the ground for the pavers."
+        ],
+        "photos": [
+          "img/eagles/zachary-fecanin/01.jpg",
+          "img/eagles/zachary-fecanin/02.jpg",
+          "img/eagles/zachary-fecanin/03.jpg",
+          "img/eagles/zachary-fecanin/04.jpg"
+        ]
+      }
     },
     {
       "name": "Connor Washburn",
