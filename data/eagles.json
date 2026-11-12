@@ -612,7 +612,26 @@
     {
       "name": "David Torgerson",
       "date": "June 8, 2015",
-      "project": ""
+      "project": "Door hardware and wiring at Bishop McLaughlin Catholic High School",
+      "projectPage": {
+        "slug": "david-torgerson",
+        "paragraphs": [
+          "David Torgerson's Eagle project took place at Bishop McLaughlin Catholic High School in Spring Hill, Florida, in October 2014. He led a crew of fellow Scouts and adults working on the school's hallway doors.",
+          "The team pulled wire through the ceiling to the doorways, worked on the doors' push-bar hardware, and connected the wiring at each door, with everyone in hard hats and safety glasses."
+        ],
+        "photos": [
+          "img/eagles/david-torgerson/01.jpg",
+          "img/eagles/david-torgerson/02.jpg",
+          "img/eagles/david-torgerson/03.jpg",
+          "img/eagles/david-torgerson/04.jpg",
+          "img/eagles/david-torgerson/05.jpg",
+          "img/eagles/david-torgerson/06.jpg",
+          "img/eagles/david-torgerson/07.jpg",
+          "img/eagles/david-torgerson/08.jpg",
+          "img/eagles/david-torgerson/09.jpg",
+          "img/eagles/david-torgerson/10.jpg"
+        ]
+      }
     },
     {
       "name": "Jack Abberger",
