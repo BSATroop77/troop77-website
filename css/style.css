@@ -823,7 +823,7 @@ a.resource-card:hover,a.resource-card:focus-visible{border-top-color:var(--gold-
 
 /* ---------- HOME WELCOME: solid translucent white panel (replaces cloudy glow) ---------- */
 .page-home .welcome{
-  background:rgba(255,255,255,.7);border-radius:12px;padding:1.1rem 1.25rem;
+  background:rgba(255,255,255,.7);border:3px solid var(--gold);border-radius:12px;padding:1.1rem 1.25rem;
   box-shadow:0 4px 14px rgba(0,0,0,.18)}
 .page-home .welcome::before{content:none}
 .page-home .welcome h2,.page-home .welcome p{text-shadow:none}
