@@ -841,3 +841,8 @@ a.resource-card:hover,a.resource-card:focus-visible{border-top-color:var(--gold-
 @media (orientation:landscape) and (max-height:500px){
   .page-home .join-fab{bottom:calc(env(safe-area-inset-bottom,0px) + 14px)}
 }
+/* About > Troop History buttons: equal size like Resources */
+.history-block .history-nav{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.history-block .gold-btn{width:100%}
+.history-block .gold-btn > span{flex:1;min-width:0}
+@media (max-width:899px){.history-block .history-nav{grid-template-columns:1fr}}
