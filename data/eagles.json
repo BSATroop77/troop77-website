@@ -622,7 +622,22 @@
     {
       "name": "Jordan Groesbeck",
       "date": "October 13, 2014",
-      "project": ""
+      "project": "Landscaping at Evergreen Woods, Spring Hill, Florida",
+      "projectPage": {
+        "slug": "jordan-groesbeck",
+        "paragraphs": [
+          "Jordan Groesbeck led a landscaping project around the buildings at the Evergreen Woods senior living campus in Spring Hill, Florida, in March 2014.",
+          "Jordan organized a crew of fellow Scouts and adults, who cleared out the old plant beds along the walls with shovels and wheelbarrows, then dug and prepared the ground for new landscaping."
+        ],
+        "photos": [
+          "img/eagles/jordan-groesbeck/01.jpg",
+          "img/eagles/jordan-groesbeck/02.jpg",
+          "img/eagles/jordan-groesbeck/03.jpg",
+          "img/eagles/jordan-groesbeck/04.jpg",
+          "img/eagles/jordan-groesbeck/05.jpg",
+          "img/eagles/jordan-groesbeck/06.jpg"
+        ]
+      }
     },
     {
       "name": "Zachary Washburn",
