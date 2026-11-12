@@ -362,7 +362,24 @@
       "name": "Demetrios Athanasoulis",
       "date": "May 21, 2021",
       "project": "Shade Structure - St George Greek Orthodox Church, New Port Richey, Florida",
-      "photo": "img/eagles/demetrios-athanasoulis.jpg"
+      "photo": "img/eagles/demetrios-athanasoulis.jpg",
+      "projectPage": {
+        "slug": "demetrios-athanasoulis",
+        "paragraphs": [
+          "Demetrios Athanasoulis built a shaded seating area at Panagia's Playground, the playground at St. George Greek Orthodox Church in New Port Richey. Florida sun can make a playground hard to enjoy, so Demetri's project gives parents and kids a cool place to sit, rest, and watch the fun.",
+          "Demetri and his team dug post holes and set tall wooden posts in concrete, checking each one for plumb, then assembled a new picnic table on site. With the shade sail stretched between the posts and fresh mulch underfoot, the new area was ready for families, and the crew celebrated with donuts at the table they built."
+        ],
+        "photos": [
+          "img/eagles/demetrios-athanasoulis/01.jpg",
+          "img/eagles/demetrios-athanasoulis/02.jpg",
+          "img/eagles/demetrios-athanasoulis/03.jpg",
+          "img/eagles/demetrios-athanasoulis/04.jpg",
+          "img/eagles/demetrios-athanasoulis/05.jpg",
+          "img/eagles/demetrios-athanasoulis/06.jpg",
+          "img/eagles/demetrios-athanasoulis/07.jpg",
+          "img/eagles/demetrios-athanasoulis/08.jpg"
+        ]
+      }
     },
     {
       "name": "Trenton Doherty",
