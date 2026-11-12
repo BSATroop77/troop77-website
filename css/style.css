@@ -841,4 +841,3 @@ a.resource-card:hover,a.resource-card:focus-visible{border-top-color:var(--gold-
 @media (orientation:landscape) and (max-height:500px){
   .page-home .join-fab{bottom:calc(env(safe-area-inset-bottom,0px) + 14px)}
 }
-.spl-intro{max-width:46rem;margin:0 auto 1.2rem;text-align:center;color:var(--navy)}
