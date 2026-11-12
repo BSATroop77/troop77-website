@@ -339,7 +339,24 @@
       "name": "Evan Knoop",
       "date": "June 9, 2021",
       "project": "Fire Pit, Hope United Methodist Church, New Port Richey, Florida",
-      "photo": "img/eagles/evan-knoop.jpg"
+      "photo": "img/eagles/evan-knoop.jpg",
+      "projectPage": {
+        "slug": "evan-knoop",
+        "paragraphs": [
+          "Evan Knoop built a fire pit gathering area for Hope United Methodist Church in New Port Richey. The new space, with a stone-ringed fire pit and two sturdy wooden benches, gives the church and its groups a welcoming place to sit around a fire together.",
+          "Evan and his team marked out the site, dug and leveled the ground, and laid a brick base inside a steel fire ring before stacking retaining blocks around it. They set the bench posts in fast-setting concrete, checked everything with a level, and built and screwed together the wooden benches to finish the space."
+        ],
+        "photos": [
+          "img/eagles/evan-knoop/01.jpg",
+          "img/eagles/evan-knoop/02.jpg",
+          "img/eagles/evan-knoop/03.jpg",
+          "img/eagles/evan-knoop/04.jpg",
+          "img/eagles/evan-knoop/05.jpg",
+          "img/eagles/evan-knoop/06.jpg",
+          "img/eagles/evan-knoop/07.jpg",
+          "img/eagles/evan-knoop/08.jpg"
+        ]
+      }
     },
     {
       "name": "Demetrios Athanasoulis",
