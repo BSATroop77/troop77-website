@@ -160,7 +160,22 @@
       "name": "Dylan Greenwald",
       "date": "March 30, 2023",
       "project": "Monarch butterfly waypoint at Hospice",
-      "photo": "img/eagles/dylan-greenwald.jpg"
+      "photo": "img/eagles/dylan-greenwald.jpg",
+      "projectPage": {
+        "slug": "dylan-greenwald",
+        "paragraphs": [
+          "Dylan Greenwald created a Monarch butterfly waypoint garden on the grounds of a local hospice. Butterflies need nectar flowers to feed on and host plants like milkweed to lay their eggs on, and Dylan’s garden gives Monarchs and other Florida butterflies a place to stop and refuel, while giving patients, families, and staff something beautiful to enjoy.",
+          "Dylan and his team tilled the ground, laid down landscape fabric, set out and planted dozens of butterfly-friendly flowers, then finished the bed with mulch and a good watering. It didn’t take long for visitors to arrive: Monarchs and Gulf Fritillaries were soon spotted feeding in the new garden."
+        ],
+        "photos": [
+          "img/eagles/dylan-greenwald/01.jpg",
+          "img/eagles/dylan-greenwald/02.jpg",
+          "img/eagles/dylan-greenwald/03.jpg",
+          "img/eagles/dylan-greenwald/04.jpg",
+          "img/eagles/dylan-greenwald/05.jpg",
+          "img/eagles/dylan-greenwald/06.jpg"
+        ]
+      }
     },
     {
       "name": "Jake Noel",
