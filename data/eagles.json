@@ -292,7 +292,24 @@
       "name": "Cooper Burden",
       "date": "June 6, 2022",
       "project": "Repainted part of church",
-      "photo": "img/eagles/cooper-burden.jpg"
+      "photo": "img/eagles/cooper-burden.jpg",
+      "projectPage": {
+        "slug": "cooper-burden",
+        "paragraphs": [
+          "Cooper Burden’s Eagle project gave part of a local church a fresh coat of paint. Cooper planned the work and led a crew of Scouts and adults who caulked and patched the cracks along the beams and trim, cut back overgrown trees, and then sprayed new paint across the walls of the church’s covered walkway.",
+          "When the job was done, the whole crew gathered in front of the colorful ocean mural that brightens the courtyard, with a space that looked new again."
+        ],
+        "photos": [
+          "img/eagles/cooper-burden/01.jpg",
+          "img/eagles/cooper-burden/02.jpg",
+          "img/eagles/cooper-burden/03.jpg",
+          "img/eagles/cooper-burden/04.jpg",
+          "img/eagles/cooper-burden/05.jpg",
+          "img/eagles/cooper-burden/06.jpg",
+          "img/eagles/cooper-burden/07.jpg",
+          "img/eagles/cooper-burden/08.jpg"
+        ]
+      }
     },
     {
       "name": "Yanni Tsiabasis",
