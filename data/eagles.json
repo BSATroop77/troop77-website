@@ -127,7 +127,28 @@
       "name": "Nick Clohessy",
       "date": "August 17, 2023",
       "project": "Cemetery refurbishment",
-      "photo": "img/eagles/nick-clohessy.jpg"
+      "photo": "img/eagles/nick-clohessy.jpg",
+      "projectPage": {
+        "slug": "nick-clohessy",
+        "paragraphs": [
+          "Nick Clohessy of Troop 77 led a project he called “Restoring Honor” at Pine Hill Cemetery in New Port Richey, a burial ground established in 1916 whose veterans’ section is maintained by American Legion Paradise Post 79. He wanted to honor veterans for their service and sacrifice; both of his parents, as well as his grandparents and uncles, have served or are serving in the Armed Forces. Working with Post 79, Nick and his team cleaned 103 veterans’ headstones, planted new flag markers and flags beside each stone, cleaned the memorial sidewalk, and installed a solar flag light for the cemetery’s flagpole.",
+          "In January 2023, while the work was underway, ABC Action News reported that Scouts spent two days washing and scrubbing headstones so the names of those who served would be clear again. Among those buried at Pine Hill is Medal of Honor recipient James Huff, a veteran of the Indian Wars.",
+          "The project was nominated for the National Eagle Scout Service Project of the Year, and Nick received a Community Service Award from the Daughters of the American Revolution."
+        ],
+        "photos": [],
+        "video": "l3HEWeemip4",
+        "linksTitle": "In the News",
+        "links": [
+          {
+            "title": "ABC Action News, January 2023: Boy Scouts team up to clean veterans' headstones at Pasco County cemetery",
+            "url": "https://www.tampabay28.com/news/region-pasco/boy-scouts-team-up-to-clean-veterans-headstones-at-pasco-county-cemetery"
+          },
+          {
+            "title": "Eagle Corner, Summer 2024",
+            "url": "https://img1.wsimg.com/blobby/go/1ff725a2-e1e4-4075-bb96-21c969a14782/ABS%20Eagle%20Corner%20Summer%202024%20Edition%20.pdf"
+          }
+        ]
+      }
     },
     {
       "name": "Thompson Borree",
