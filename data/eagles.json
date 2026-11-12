@@ -627,7 +627,20 @@
     {
       "name": "Zachary Washburn",
       "date": "September 8, 2014",
-      "project": ""
+      "project": "Fencing at the Tampa BMX track in Lake Park, Lutz, Florida",
+      "projectPage": {
+        "slug": "zachary-washburn",
+        "paragraphs": [
+          "Zachary Washburn led a project to install chain-link fencing along the Tampa BMX track at Hillsborough County's Lake Park in Lutz. Tampa BMX is a nonprofit track run entirely by volunteers, riders, and their families, and the new fencing helps separate the racing area from the spectator and parking areas.",
+          "Zachary organized a crew of fellow Scouts and adults, who unrolled the chain-link fabric, stretched it along the posts and top rail, and fastened it in place section by section."
+        ],
+        "photos": [
+          "img/eagles/zachary-washburn/01.jpg",
+          "img/eagles/zachary-washburn/02.jpg",
+          "img/eagles/zachary-washburn/03.jpg",
+          "img/eagles/zachary-washburn/04.jpg"
+        ]
+      }
     },
     {
       "name": "Timothy Weaver",
