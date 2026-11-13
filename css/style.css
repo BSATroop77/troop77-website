@@ -846,3 +846,11 @@ a.resource-card:hover,a.resource-card:focus-visible{border-top-color:var(--gold-
 .history-block .gold-btn{width:100%}
 .history-block .gold-btn > span{flex:1;min-width:0}
 @media (max-width:899px){.history-block .history-nav{grid-template-columns:1fr}}
+
+/* ---------- EAGLE ON ABOUT BUTTON ---------- */
+.rail li.has-eagle{position:relative}
+.nav-eagle{position:absolute;left:50%;bottom:-34px;width:86px;transform:translateX(-50%);z-index:3;line-height:0;transition:transform .2s}
+.nav-eagle img{width:100%;height:auto;filter:drop-shadow(0 3px 4px rgba(0,0,0,.6))}
+.nav-eagle:hover,.nav-eagle:focus-visible{transform:translateX(-50%) scale(1.08);outline:none}
+@media (max-width:1100px){.nav-eagle{width:75px;bottom:-30px}}
+@media (max-width:899px){.nav-eagle{display:none}}
