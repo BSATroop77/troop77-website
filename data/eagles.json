@@ -55,7 +55,16 @@
       "name": "Adam Alhassan",
       "date": "August 31, 2026",
       "project": "2 benches for TPCOSS",
-      "photo": "img/eagles/adam-alhassan.jpg"
+      "photo": "img/eagles/adam-alhassan.jpg",
+      "projectPage": {
+        "slug": "adam-alhassan",
+        "paragraphs": [
+          "For his Eagle project, Adam Alhassan built two benches for TPCOSS. Made from pressure-treated lumber, each bench has a slatted seat and back with sturdy armrests, and both now stand side by side under a covered walkway, giving visitors a shaded place to sit."
+        ],
+        "photos": [
+          "img/eagles/adam-alhassan/01.jpg"
+        ]
+      }
     },
     {
       "name": "Chase O'Brien",
