@@ -92,9 +92,9 @@ a{color:inherit}
   font-family:var(--font-head);font-weight:500;letter-spacing:.04em;text-transform:uppercase;
   color:var(--gold-3);font-size:.95rem}
 .contact-place{margin-top:16px}
-.contact-social{margin:18px 0 0}
-.contact-social a{color:var(--navy);font-weight:600}
-.contact-social a:hover,.contact-social a:focus-visible{color:var(--gold-3)}
+.contact-social{margin-top:16px}
+.contact-social .fb-link{display:inline-flex;align-items:center;gap:10px}
+.contact-social .fb-logo{flex:none;width:28px;height:28px}
 .resources-index .history-nav{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:0}
 .resources-index .gold-btn{width:100%}
 .resources-index .gold-btn > span{flex:1;min-width:0}
