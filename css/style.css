@@ -899,3 +899,7 @@ a.resource-card:hover,a.resource-card:focus-visible{border-top-color:var(--gold-
 @media (max-width:600px){.shop-pdf-frame iframe{height:480px}}
 .res-section-head{margin:0 0 10px;font-family:var(--font-head);font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--navy);font-size:1.05rem}
 .resources-index .history-nav + .history-nav{margin-top:22px;padding-top:22px;border-top:3px solid var(--gold)}
+.shop-pdf-frame{width:100%;max-width:900px;margin-left:auto;margin-right:auto}
+.shop-pdf-frame iframe{height:auto;aspect-ratio:8.5/11.4}
+@media (max-width:600px){.shop-pdf-frame iframe{height:auto}}
+.ks-video .shop-video-frame{width:100%;max-width:560px;margin-left:auto;margin-right:auto}
