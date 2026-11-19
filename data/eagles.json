@@ -83,8 +83,26 @@
     {
       "name": "Liam Dunning",
       "date": "July 16, 2025",
-      "project": "K-Tech shade structure",
-      "photo": "img/eagles/liam-dunning.jpg"
+      "project": "Fossil sifting boxes, storage crate, and sun shade for the MAPS museum at K-Tech",
+      "photo": "img/eagles/liam-dunning.jpg",
+      "projectPage": {
+        "slug": "liam-dunning",
+        "paragraphs": [
+          "For his Eagle project, Liam Dunning built fossil sifting boxes, a large storage crate, and a sun shade for the MAPS museum at K-Tech (Wendell Krinn Technical High School).",
+          "Liam started in the garage, cutting and screwing together a tall stack of wooden sifting frames fitted with screen. On site, he built a big lidded wooden crate stenciled with MAPS to store the museum's gear, then worked with an adult volunteer on a ladder to hang a black shade sail over the outdoor area beside the crate."
+        ],
+        "photos": [
+          "img/eagles/liam-dunning/01.jpg",
+          "img/eagles/liam-dunning/02.jpg",
+          "img/eagles/liam-dunning/03.jpg",
+          "img/eagles/liam-dunning/04.jpg",
+          "img/eagles/liam-dunning/05.jpg",
+          "img/eagles/liam-dunning/06.jpg",
+          "img/eagles/liam-dunning/07.jpg",
+          "img/eagles/liam-dunning/08.jpg",
+          "img/eagles/liam-dunning/09.jpg"
+        ]
+      }
     },
     {
       "name": "Christopher Johnson",
