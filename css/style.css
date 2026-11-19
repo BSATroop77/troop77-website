@@ -866,3 +866,4 @@ a.resource-card:hover,a.resource-card:focus-visible{border-top-color:var(--gold-
 .card a.tl-btn:hover,.card a.tl-btn:focus-visible{background:var(--gold);color:var(--navy)}
 
 .donate-how{margin-top:4px}
+.contact-social p{display:flex;flex-wrap:wrap;gap:12px 28px}
