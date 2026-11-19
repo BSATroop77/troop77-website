@@ -96,6 +96,7 @@ a{color:inherit}
 .contact-social .fb-link{display:inline-flex;align-items:center;gap:10px}
 .contact-social .fb-logo{flex:none;width:28px;height:28px}
 .resources-index .history-nav{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:0}
+.resources-index .history-nav + .history-nav{margin-top:20px}
 .resources-index .gold-btn{width:100%}
 .resources-index .gold-btn > span{flex:1;min-width:0}
 .resources-index .gold-btn > span.is-long{font-size:13.5px;line-height:1.1;padding-top:3px;padding-bottom:3px}
@@ -867,3 +868,29 @@ a.resource-card:hover,a.resource-card:focus-visible{border-top-color:var(--gold-
 
 .donate-how{margin-top:4px}
 .contact-social p{display:flex;flex-wrap:wrap;gap:12px 28px}
+
+/* ---------- SHOP / GIFT GUIDE ---------- */
+.shop-grid{list-style:none;padding:0;margin:10px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.shop-card{display:flex;flex-direction:column;background:#fff;border-radius:10px;border-top:3px solid var(--gold);box-shadow:0 1px 6px rgba(20,36,63,.08);padding:12px 14px 14px;overflow:hidden}
+.shop-card-img{height:140px;background:#fff;display:grid;place-items:center;margin:0 0 10px}
+.shop-card-img img{max-width:100%;max-height:140px;width:auto;height:auto;object-fit:contain}
+.shop-card-img--badge{align-content:center}
+.shop-card h2,.shop-card h3{margin:0;font-family:var(--font-head);font-weight:700;color:var(--navy);font-size:1.05rem;line-height:1.2}
+.shop-card h2{text-transform:uppercase;letter-spacing:.03em}
+.shop-card p{margin:.35rem 0 .6rem;color:#4a5263;font-size:.9rem;line-height:1.4}
+.shop-card p.shop-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;margin-bottom:0}
+.shop-card a.shop-btn{display:inline-block;padding:4px 12px;border-radius:999px;border:2px solid var(--gold);background:var(--navy);color:#fff;font-family:var(--font-head);font-weight:600;letter-spacing:.03em;text-transform:uppercase;font-size:.72rem;text-decoration:none;line-height:1.25}
+.shop-card a.shop-btn:hover,.shop-card a.shop-btn:focus-visible{background:var(--gold);color:var(--navy)}
+.shop-video{margin-top:1.4rem}
+.shop-video > p{margin:.4rem 0 .8rem;color:var(--navy);line-height:1.55}
+.shop-video-frame{position:relative;width:100%;max-width:720px;aspect-ratio:16/9;border:3px solid var(--gold);border-radius:10px;overflow:hidden;background:#000;box-shadow:0 1px 6px rgba(20,36,63,.08)}
+.shop-video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.shop-guide{display:grid;gap:16px;margin-top:4px}
+.shop-guide .shop-card{padding:16px 18px 18px}
+.shop-guide .shop-video-frame{max-width:none;margin-top:8px}
+@media (max-width:600px){
+  .shop-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+}
+@media (max-width:419px){
+  .shop-grid{grid-template-columns:1fr}
+}
