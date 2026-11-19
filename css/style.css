@@ -863,8 +863,8 @@ a.resource-card:hover,a.resource-card:focus-visible{border-top-color:var(--gold-
 .tl-badge svg{width:56%;height:56%;margin:auto;color:var(--gold-2)}
 .tl-card h3{margin:0;font-family:var(--font-head);font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:var(--navy);font-size:.95rem;line-height:1.15}
 .tl-card p{margin:.2rem 0 0;color:#4a5263;font-size:.85rem;line-height:1.3}
-.card a.tl-btn{display:inline-block;padding:4px 12px;border-radius:999px;border:2px solid var(--gold);background:var(--navy);color:#fff;font-family:var(--font-head);font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:.78rem;text-decoration:none}
-.card a.tl-btn:hover,.card a.tl-btn:focus-visible{background:var(--gold);color:var(--navy)}
+.card a.tl-btn,.shop-card a.tl-btn{display:inline-block;padding:4px 12px;border-radius:999px;border:2px solid var(--gold);background:var(--navy);color:#fff;font-family:var(--font-head);font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:.78rem;text-decoration:none}
+.card a.tl-btn:hover,.card a.tl-btn:focus-visible,.shop-card a.tl-btn:hover{background:var(--gold);color:var(--navy)}
 
 .donate-how{margin-top:4px}
 .contact-social p{display:flex;flex-wrap:wrap;gap:12px 28px}
@@ -894,3 +894,8 @@ a.resource-card:hover,a.resource-card:focus-visible{border-top-color:var(--gold-
 @media (max-width:419px){
   .shop-grid{grid-template-columns:1fr}
 }
+.shop-pdf-frame{border:3px solid var(--gold);border-radius:12px;overflow:hidden;background:#f4f1ea;margin-top:8px}
+.shop-pdf-frame iframe{display:block;width:100%;height:720px;border:0}
+@media (max-width:600px){.shop-pdf-frame iframe{height:480px}}
+.res-section-head{margin:0 0 10px;font-family:var(--font-head);font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--navy);font-size:1.05rem}
+.resources-index .history-nav + .history-nav{margin-top:22px;padding-top:22px;border-top:3px solid var(--gold)}
