@@ -864,3 +864,5 @@ a.resource-card:hover,a.resource-card:focus-visible{border-top-color:var(--gold-
 .tl-card p{margin:.2rem 0 0;color:#4a5263;font-size:.85rem;line-height:1.3}
 .card a.tl-btn{display:inline-block;padding:4px 12px;border-radius:999px;border:2px solid var(--gold);background:var(--navy);color:#fff;font-family:var(--font-head);font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:.78rem;text-decoration:none}
 .card a.tl-btn:hover,.card a.tl-btn:focus-visible{background:var(--gold);color:var(--navy)}
+
+.donate-how{margin-top:4px}
