@@ -163,8 +163,30 @@
     {
       "name": "Chuck Santoli",
       "date": "December 18, 2024",
-      "project": "Butterfly garden for Deer Park",
-      "photo": "img/eagles/chuck-santoli.jpg"
+      "project": "Dry pond, gazebo rebuild, and native landscaping at Deer Park Elementary",
+      "photo": "img/eagles/chuck-santoli.jpg",
+      "projectPage": {
+        "slug": "chuck-santoli",
+        "paragraphs": [
+          "For his Eagle project, Chuck Santoli renewed the courtyard at Deer Park Elementary School with a new dry pond, a rebuilt gazebo, and all new landscaping.",
+          "A wet pond once sat in the courtyard but had been filled in over the years. Chuck and his crew dug it back out, set the pond form, and tiled the bottom with blue glass mosaic so it looks like water. They also rebuilt the gazebo, which was falling apart, and removed invasive, exotic, and poisonous plants from the courtyard, replacing them with native plants that are safe for the students."
+        ],
+        "photos": [
+          "img/eagles/chuck-santoli/01.jpg",
+          "img/eagles/chuck-santoli/02.jpg",
+          "img/eagles/chuck-santoli/03.jpg",
+          "img/eagles/chuck-santoli/04.jpg",
+          "img/eagles/chuck-santoli/05.jpg",
+          "img/eagles/chuck-santoli/06.jpg",
+          "img/eagles/chuck-santoli/07.jpg",
+          "img/eagles/chuck-santoli/08.jpg",
+          "img/eagles/chuck-santoli/09.jpg",
+          "img/eagles/chuck-santoli/10.jpg",
+          "img/eagles/chuck-santoli/11.jpg",
+          "img/eagles/chuck-santoli/12.jpg",
+          "img/eagles/chuck-santoli/13.jpg"
+        ]
+      }
     },
     {
       "name": "Andreas Gerlach",
