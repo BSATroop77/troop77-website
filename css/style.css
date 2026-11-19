@@ -904,3 +904,8 @@ a.resource-card:hover,a.resource-card:focus-visible{border-top-color:var(--gold-
 @media (max-width:600px){.shop-pdf-frame iframe{height:auto}}
 .ks-video .shop-video-frame{width:100%;max-width:560px;margin-left:auto;margin-right:auto}
 .resources-index .history-nav + .res-section-head{margin-top:22px;padding-top:22px;border-top:3px solid var(--gold)}
+.tshirt-card{max-width:760px;margin-left:auto;margin-right:auto;text-align:center}
+.tshirt-logo img{max-width:260px;width:100%;height:auto;display:block;margin:4px auto 10px}
+.tshirt-list{text-align:left;margin:14px 0;padding-left:1.2em;line-height:1.55}
+.tshirt-list li{margin:0 0 8px}
+.tshirt-card .tl-btn{word-break:break-word}
