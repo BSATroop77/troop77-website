@@ -255,8 +255,18 @@
     {
       "name": "Jake Noel",
       "date": "March 30, 2023",
-      "project": "Water garden / fountain at SSES",
-      "photo": "img/eagles/jake-noel.jpg"
+      "project": "Koi pond for Seven Springs Elementary",
+      "photo": "img/eagles/jake-noel.jpg",
+      "projectPage": {
+        "slug": "jake-noel",
+        "paragraphs": [
+          "For his Eagle project, Jake Noel built a koi pond for Seven Springs Elementary School.",
+          "Water flows from an upper pool through a spillway and falls into a lower basin lined with river rock, framed by stacked stones and plantings."
+        ],
+        "photos": [
+          "img/eagles/jake-noel/01.jpg"
+        ]
+      }
     },
     {
       "name": "Jackson Davis",
