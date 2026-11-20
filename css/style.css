@@ -909,3 +909,4 @@ a.resource-card:hover,a.resource-card:focus-visible{border-top-color:var(--gold-
 .tshirt-list{text-align:left;margin:14px 0;padding-left:1.2em;line-height:1.55}
 .tshirt-list li{margin:0 0 8px}
 .tshirt-card .tl-btn{word-break:break-word}
+.zeffy-qr img{display:block;width:180px;height:180px;margin:6px 0 4px;image-rendering:pixelated}
