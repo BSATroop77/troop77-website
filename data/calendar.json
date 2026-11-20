@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T00:44:23Z",
+  "fetchedAt": "2026-11-20T06:57:30Z",
   "timeZone": "America/New_York",
   "windowStart": "2026-11-01",
   "windowEnd": "2027-02-01",
@@ -33,7 +33,7 @@
     },
     {
       "uid": "7041054@advancements.scouting.org",
-      "title": "Camping - Alafia River SP",
+      "title": "Camping - Alafia River SP (Cycling MB)",
       "start": "2026-11-13T18:00:00-05:00",
       "end": "2026-11-15T11:00:00-05:00",
       "allDay": false,
@@ -96,7 +96,7 @@
     },
     {
       "uid": "7041056@advancements.scouting.org",
-      "title": "Camping - Sand Hill",
+      "title": "Camping - Sand Hill (Rifle MB)",
       "start": "2026-12-18T18:00:00-05:00",
       "end": "2026-12-20T11:00:00-05:00",
       "allDay": false,
@@ -150,7 +150,7 @@
     },
     {
       "uid": "7041066@advancements.scouting.org",
-      "title": "Camping - FL Train Museum",
+      "title": "Camping - FL Train Museum (Railroading MB)",
       "start": "2027-01-15T18:00:00-05:00",
       "end": "2027-01-17T11:00:00-05:00",
       "allDay": false,
