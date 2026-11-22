@@ -1,11 +1,18 @@
 {
-  "updated": "2026-11-21T20:41:41-05:00",
+  "updated": "2026-11-22T02:40:59-05:00",
   "page": {
     "id": "957852030740744",
     "name": "Scouting America Troop 77 NPR",
     "url": "https://www.facebook.com/Troop77NPR"
   },
   "posts": [
+    {
+      "id": "957852030740744_122145460119206093",
+      "message": "",
+      "created_time": "2026-11-22T02:28:11+0000",
+      "permalink_url": "https://www.facebook.com/122144282841206093/posts/122145460119206093",
+      "full_picture": "img/news/957852030740744_122145460119206093.jpg"
+    },
     {
       "id": "957852030740744_122144877285206093",
       "message": "Oct 2026 - Troop 77 scouts and leaders representing the troop helping Pack 7 AOL scouts with skills and leading the bike rides. We appreciate you all going out to help and model Troop life.",
@@ -40,13 +47,6 @@
       "created_time": "2026-10-14T20:28:48+0000",
       "permalink_url": "https://www.facebook.com/122144282841206093/posts/122141410329206093",
       "full_picture": "img/news/957852030740744_122141410329206093.jpg"
-    },
-    {
-      "id": "957852030740744_122139844443206093",
-      "message": "Sept 2026 - Manatee Springs Campout.  Canoeing, Kayaking, Snorkeling, Campfire Program, Flag Retirement - It was a full weekend of fun in absolutley wonderfull weather.",
-      "created_time": "2026-10-01T19:27:36+0000",
-      "permalink_url": "https://www.facebook.com/122144282841206093/posts/122139844443206093",
-      "full_picture": "img/news/957852030740744_122139844443206093.jpg"
     }
   ]
 }
